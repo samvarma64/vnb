@@ -127,14 +127,14 @@ export default function CreateBlogPost() {
           <div className="flex items-center justify-between mb-8">
             <button
               onClick={() => setPreviewMode(false)}
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors cursor-pointer"
+              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors "
             >
               <ArrowLeft className="w-4 h-4" />
               <span>Back to Editor</span>
             </button>
             <button
               onClick={() => setPreviewMode(false)}
-              className="px-4 py-2 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors cursor-pointer"
+              className="px-4 py-2 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors "
             >
               Continue Editing
             </button>
@@ -192,7 +192,7 @@ export default function CreateBlogPost() {
           <div className="flex items-center gap-4">
             <Link
               href="/admin/dashboard"
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors cursor-pointer"
+              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors "
             >
               <ArrowLeft className="w-4 h-4" />
               <span>Back to Dashboard</span>
@@ -203,7 +203,7 @@ export default function CreateBlogPost() {
           </div>
           <button
             onClick={() => setPreviewMode(true)}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors "
           >
             <Eye className="w-4 h-4" />
             Preview
@@ -324,7 +324,7 @@ export default function CreateBlogPost() {
                 <button
                   type="button"
                   onClick={addTag}
-                  className="px-6 py-3 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors cursor-pointer"
+                  className="px-6 py-3 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors "
                 >
                   Add Tag
                 </button>
@@ -339,7 +339,7 @@ export default function CreateBlogPost() {
                     <button
                       type="button"
                       onClick={() => removeTag(tag)}
-                      className="hover:text-red-600 transition-colors cursor-pointer"
+                      className="hover:text-red-600 transition-colors "
                     >
                       <X className="w-3 h-3" />
                     </button>
@@ -411,7 +411,7 @@ export default function CreateBlogPost() {
                   }
                 }}
                 disabled={isSubmitting}
-                className="flex-1 px-6 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+                className="flex-1 px-6 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed "
               >
                 {isSubmitting && formData.status === "draft" ? (
                   <span className="flex items-center justify-center gap-2">
@@ -471,7 +471,7 @@ export default function CreateBlogPost() {
                   }
                 }}
                 disabled={isSubmitting}
-                className="flex-1 px-6 py-3 bg-vnb-blue text-white rounded-lg font-semibold hover:bg-vnb-blue/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+                className="flex-1 px-6 py-3 bg-vnb-blue text-white rounded-lg font-semibold hover:bg-vnb-blue/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed "
               >
                 {isSubmitting && formData.status === "published" ? (
                   <span className="flex items-center justify-center gap-2">
@@ -488,7 +488,7 @@ export default function CreateBlogPost() {
 
               <Link
                 href="/admin/dashboard"
-                className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors text-center cursor-pointer flex items-center justify-center"
+                className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors text-center  flex items-center justify-center"
               >
                 Cancel
               </Link>

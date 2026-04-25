@@ -56,7 +56,7 @@ export default function SolarServicesPage() {
         <div className="container mx-auto px-6 relative z-10">
           <Link
             href="/#services"
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-green transition-colors mb-8 cursor-pointer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-green transition-colors mb-8 "
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Services</span>
@@ -86,7 +86,7 @@ export default function SolarServicesPage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/portfolio"
-                className="px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+                className="px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
               >
                 Success Stories
               </Link>
@@ -297,7 +297,7 @@ export default function SolarServicesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-block px-8 py-4 bg-white text-vnb-green rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+              className="inline-block px-8 py-4 bg-white text-vnb-green rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
             >
               Contact Us Today
             </Link>

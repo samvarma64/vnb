@@ -152,7 +152,7 @@ export default function PortfolioPage() {
                 <button
                   key={category.name}
                   onClick={() => setSelectedCategory(category.name)}
-                  className={`flex items-center gap-2 px-6 py-2.5 rounded-full font-medium transition-all cursor-pointer ${
+                  className={`flex items-center gap-2 px-6 py-2.5 rounded-full font-medium transition-all  ${
                     selectedCategory === category.name
                       ? "bg-vnb-green text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
@@ -286,7 +286,7 @@ export default function PortfolioPage() {
                 Let&apos;s create something amazing together. Get in touch with
                 our team to discuss your requirements.
               </p>
-              <button className="px-8 py-4 bg-gray-900 text-white font-semibold rounded-xl hover:bg-gray-800 transition-colors cursor-pointer shadow-lg">
+              <button className="px-8 py-4 bg-gray-900 text-white font-semibold rounded-xl hover:bg-gray-800 transition-colors  shadow-lg">
                 Start Your Project
               </button>
             </motion.div>

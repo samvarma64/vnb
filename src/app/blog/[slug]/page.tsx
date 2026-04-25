@@ -36,7 +36,7 @@ export default function BlogPostPage() {
           </h1>
           <Link
             href="/blog"
-            className="text-vnb-blue hover:underline cursor-pointer"
+            className="text-vnb-blue hover:underline "
           >
             Back to Blog
           </Link>
@@ -52,7 +52,7 @@ export default function BlogPostPage() {
         <div className="container mx-auto px-6">
           <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-blue transition-colors mb-8 cursor-pointer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-blue transition-colors mb-8 "
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Blog</span>
@@ -106,7 +106,7 @@ export default function BlogPostPage() {
                 </div>
               </div>
 
-              <button className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors cursor-pointer">
+              <button className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors ">
                 <Share2 className="w-5 h-5 text-gray-600" />
               </button>
             </div>
@@ -178,7 +178,7 @@ export default function BlogPostPage() {
                   {post.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-vnb-blue/10 hover:text-vnb-blue transition-colors cursor-pointer"
+                      className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-vnb-blue/10 hover:text-vnb-blue transition-colors "
                     >
                       {tag}
                     </span>
@@ -205,7 +205,7 @@ export default function BlogPostPage() {
                       <Link
                         key={recentPost.id}
                         href={`/blog/${recentPost.slug}`}
-                        className="block group cursor-pointer"
+                        className="block group "
                       >
                         <div className="flex gap-4">
                           <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
@@ -256,7 +256,7 @@ export default function BlogPostPage() {
                   </p>
                   <Link
                     href="/contact"
-                    className="block w-full px-6 py-3 bg-white text-vnb-blue rounded-lg font-semibold text-center hover:shadow-lg transition-all cursor-pointer"
+                    className="block w-full px-6 py-3 bg-white text-vnb-blue rounded-lg font-semibold text-center hover:shadow-lg transition-all "
                   >
                     Contact Us
                   </Link>

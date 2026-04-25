@@ -119,7 +119,7 @@ export default function MediaUpload({
           <button
             type="button"
             onClick={handleRemove}
-            className="absolute top-2 right-2 p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors cursor-pointer opacity-0 group-hover:opacity-100"
+            className="absolute top-2 right-2 p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors  opacity-0 group-hover:opacity-100"
           >
             <X className="w-4 h-4" />
           </button>
@@ -135,7 +135,7 @@ export default function MediaUpload({
       ) : (
         <div
           onClick={() => fileInputRef.current?.click()}
-          className="w-full h-64 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center cursor-pointer hover:border-vnb-blue hover:bg-gray-50 transition-all"
+          className="w-full h-64 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center  hover:border-vnb-blue hover:bg-gray-50 transition-all"
         >
           <div className="flex gap-4 mb-3">
             <ImageIcon className="w-12 h-12 text-gray-400" />

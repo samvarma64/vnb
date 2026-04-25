@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Link } from "next/link";
+import Link from "next/link";
 import { ArrowRight, Sun, Cpu, Users, Zap, Shield, Globe } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -10,7 +10,7 @@ export default function ServicesPage() {
   const services = [
     {
       icon: <Sun className="w-12 h-12" />,
-      title: "Solar Energy Solutions",
+      title: "Energy Solutions",
       description:
         "Comprehensive solar power solutions for residential, commercial, and industrial clients. Reduce your carbon footprint and energy costs.",
       features: [
@@ -19,7 +19,7 @@ export default function ServicesPage() {
         "Net Metering",
         "Maintenance Services",
       ],
-      link: "/services/solar",
+      link: "/solar-energy",
       color: "from-yellow-400 to-orange-500",
     },
     {
@@ -152,7 +152,7 @@ export default function ServicesPage() {
                     </div>
                     <Link
                       href={service.link}
-                      className="inline-flex items-center gap-3 px-6 py-3 bg-vnb-blue text-white font-semibold rounded-xl hover:bg-vnb-blue/90 transition-colors cursor-pointer"
+                      className="inline-flex items-center gap-3 px-6 py-3 bg-vnb-blue text-white font-semibold rounded-xl hover:bg-vnb-blue/90 transition-colors "
                     >
                       Learn More
                       <ArrowRight className="w-5 h-5" />
@@ -202,7 +202,7 @@ export default function ServicesPage() {
                   <p className="text-gray-600 leading-relaxed mb-6">
                     {service.description}
                   </p>
-                  <button className="text-vnb-blue font-semibold hover:underline cursor-pointer">
+                  <button className="text-vnb-blue font-semibold hover:underline ">
                     Coming Soon →
                   </button>
                 </motion.div>
@@ -223,12 +223,12 @@ export default function ServicesPage() {
                 Ready to Transform Your Business?
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Let's discuss how our services can help you achieve your goals
-                and drive growth.
+                Let&apos;s discuss how our services can help you achieve your
+                goals and drive growth.
               </p>
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors cursor-pointer"
+                className="inline-block px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors "
               >
                 Get Started Today
               </Link>

@@ -36,7 +36,7 @@ export default function VNBGroupHero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
-            className="relative group overflow-hidden cursor-pointer"
+            className="relative group overflow-hidden "
           >
             <Link href={vertical.link} target="_blank" className="block h-full">
               {/* Background Image */}

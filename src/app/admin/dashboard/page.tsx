@@ -76,13 +76,13 @@ export default function AdminDashboard() {
             <div className="flex items-center gap-4">
               <Link
                 href="/"
-                className="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors cursor-pointer"
+                className="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors "
               >
                 View Site
               </Link>
               <button
                 onClick={handleLogout}
-                className="flex items-center gap-2 px-4 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors cursor-pointer"
+                className="flex items-center gap-2 px-4 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors "
               >
                 <LogOut className="w-4 h-4" />
                 Logout
@@ -174,7 +174,7 @@ export default function AdminDashboard() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="bg-gradient-to-br from-vnb-blue to-vnb-purple rounded-2xl p-6 text-white cursor-pointer hover:shadow-lg transition-shadow"
+              className="bg-gradient-to-br from-vnb-blue to-vnb-purple rounded-2xl p-6 text-white  hover:shadow-lg transition-shadow"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-white/90 text-sm font-medium">
@@ -203,7 +203,7 @@ export default function AdminDashboard() {
               </h2>
               <Link
                 href="/admin/create"
-                className="flex items-center gap-2 px-4 py-2 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors cursor-pointer"
+                className="flex items-center gap-2 px-4 py-2 bg-vnb-blue text-white rounded-lg hover:bg-vnb-blue/90 transition-colors "
               >
                 <Plus className="w-4 h-4" />
                 New Post
@@ -306,21 +306,21 @@ export default function AdminDashboard() {
                         <Link
                           href={`/blog/${post.slug}`}
                           target="_blank"
-                          className="p-2 text-gray-400 hover:text-vnb-blue hover:bg-vnb-blue/10 rounded-lg transition-colors cursor-pointer"
+                          className="p-2 text-gray-400 hover:text-vnb-blue hover:bg-vnb-blue/10 rounded-lg transition-colors "
                           title="View Post"
                         >
                           <Eye className="w-4 h-4" />
                         </Link>
                         <Link
                           href={`/admin/edit/${post.id}`}
-                          className="p-2 text-gray-400 hover:text-vnb-green hover:bg-vnb-green/10 rounded-lg transition-colors cursor-pointer"
+                          className="p-2 text-gray-400 hover:text-vnb-green hover:bg-vnb-green/10 rounded-lg transition-colors "
                           title="Edit Post"
                         >
                           <Edit className="w-4 h-4" />
                         </Link>
                         <button
                           onClick={() => handleDelete(post.id)}
-                          className="p-2 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors cursor-pointer"
+                          className="p-2 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors "
                           title="Delete Post"
                         >
                           <Trash2 className="w-4 h-4" />

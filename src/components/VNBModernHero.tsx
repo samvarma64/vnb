@@ -57,7 +57,8 @@ export default function VNBModernHero() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-lg md:text-xl text-white/60 mb-12 max-w-3xl mx-auto"
           >
-            Transforming businesses through cutting-edge IT solutions, sustainable solar energy, and innovative interactive technologies
+            Transforming businesses through cutting-edge IT solutions,
+            sustainable solar energy, and innovative interactive technologies
           </motion.p>
 
           {/* CTA Buttons */}
@@ -105,25 +106,6 @@ export default function VNBModernHero() {
           </motion.div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-      >
-        <div className="flex flex-col items-center gap-2">
-          <span className="text-white/60 text-sm">Scroll to explore</span>
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center p-2"
-          >
-            <div className="w-1.5 h-1.5 bg-white/60 rounded-full" />
-          </motion.div>
-        </div>
-      </motion.div>
     </section>
   );
 }

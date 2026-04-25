@@ -276,7 +276,7 @@ export default function ContactPage() {
 
                   <button
                     type="submit"
-                    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white font-semibold rounded-xl hover:shadow-lg transition-all cursor-pointer"
+                    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white font-semibold rounded-xl hover:shadow-lg transition-all "
                   >
                     <Send className="w-5 h-5" />
                     Send Message
@@ -299,7 +299,7 @@ export default function ContactPage() {
                   {supportOptions.map((option, index) => (
                     <div
                       key={index}
-                      className="bg-gray-50 p-6 rounded-2xl hover:bg-gray-100 transition-colors cursor-pointer"
+                      className="bg-gray-50 p-6 rounded-2xl hover:bg-gray-100 transition-colors "
                     >
                       <div className="flex items-start gap-4">
                         <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center text-vnb-blue shadow-sm">

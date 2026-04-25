@@ -132,7 +132,7 @@ export default function ServiceCard({
         <motion.div
           whileHover={{ y: -4, scale: 1.01 }}
           whileTap={{ scale: 0.98 }}
-          className={`group relative p-8 rounded-2xl bg-white border ${borderColors[color]} ${bgColors[color]} transition-all duration-300 hover:shadow-xl overflow-hidden cursor-pointer`}
+          className={`group relative p-8 rounded-2xl bg-white border ${borderColors[color]} ${bgColors[color]} transition-all duration-300 hover:shadow-xl overflow-hidden `}
         >
           {content}
         </motion.div>

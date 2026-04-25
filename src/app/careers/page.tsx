@@ -272,7 +272,7 @@ export default function CareersPage() {
                 <button
                   key={dept}
                   onClick={() => setSelectedDepartment(dept)}
-                  className={`px-6 py-2.5 rounded-full font-medium transition-all cursor-pointer ${
+                  className={`px-6 py-2.5 rounded-full font-medium transition-all  ${
                     selectedDepartment === dept
                       ? "bg-vnb-blue text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
@@ -320,7 +320,7 @@ export default function CareersPage() {
                     </div>
                     <Link
                       href="/contact"
-                      className="flex items-center gap-2 px-6 py-3 bg-vnb-blue text-white font-semibold rounded-xl hover:bg-vnb-blue/90 transition-colors cursor-pointer whitespace-nowrap"
+                      className="flex items-center gap-2 px-6 py-3 bg-vnb-blue text-white font-semibold rounded-xl hover:bg-vnb-blue/90 transition-colors  whitespace-nowrap"
                     >
                       Apply Now
                       <ArrowRight className="w-4 h-4" />
@@ -357,7 +357,7 @@ export default function CareersPage() {
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors cursor-pointer"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors "
               >
                 <Send className="w-5 h-5" />
                 Send Resume

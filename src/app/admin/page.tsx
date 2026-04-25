@@ -110,7 +110,7 @@ export default function AdminLoginPage() {
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors "
                 >
                   {showPassword ? (
                     <EyeOff className="w-5 h-5" />
@@ -125,7 +125,7 @@ export default function AdminLoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+              className="w-full py-3 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed "
             >
               {loading ? "Logging in..." : "Login"}
             </button>
@@ -145,7 +145,7 @@ export default function AdminLoginPage() {
         <div className="text-center mt-6">
           <Link
             href="/"
-            className="text-white/90 hover:text-white text-sm font-medium transition-colors cursor-pointer"
+            className="text-white/90 hover:text-white text-sm font-medium transition-colors "
           >
             ← Back to Home
           </Link>

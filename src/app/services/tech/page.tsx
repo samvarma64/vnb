@@ -56,7 +56,7 @@ export default function TechServicesPage() {
         <div className="container mx-auto px-6 relative z-10">
           <Link
             href="/#services"
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-blue transition-colors mb-8 cursor-pointer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-blue transition-colors mb-8 "
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Services</span>
@@ -86,13 +86,13 @@ export default function TechServicesPage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+                className="px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
               >
                 Get Started
               </Link>
               <Link
                 href="/portfolio"
-                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-blue transition-all cursor-pointer"
+                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-blue transition-all "
               >
                 Read Case Studies
               </Link>
@@ -206,7 +206,7 @@ export default function TechServicesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-block px-8 py-4 bg-white text-vnb-blue rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+              className="inline-block px-8 py-4 bg-white text-vnb-blue rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
             >
               Schedule Consultation
             </Link>

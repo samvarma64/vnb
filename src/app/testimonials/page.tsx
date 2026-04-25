@@ -189,7 +189,7 @@ export default function TestimonialsPage() {
                 <button
                   key={category}
                   onClick={() => setFilter(category)}
-                  className={`px-6 py-2.5 rounded-full font-medium transition-all cursor-pointer ${
+                  className={`px-6 py-2.5 rounded-full font-medium transition-all  ${
                     filter === category
                       ? "bg-vnb-blue text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
@@ -280,7 +280,7 @@ export default function TestimonialsPage() {
                 Experience the same excellence that our clients rave about.
                 Let's discuss how we can help transform your business.
               </p>
-              <button className="px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors cursor-pointer">
+              <button className="px-8 py-4 bg-white text-vnb-blue font-semibold rounded-xl hover:bg-gray-50 transition-colors ">
                 Get Started Today
               </button>
             </motion.div>

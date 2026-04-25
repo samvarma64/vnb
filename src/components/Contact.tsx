@@ -97,7 +97,7 @@ export default function Contact() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.1 }}
-                    className="group relative p-6 rounded-2xl bg-white border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 cursor-pointer"
+                    className="group relative p-6 rounded-2xl bg-white border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 "
                   >
                     <div className="flex gap-4">
                       <div
@@ -204,7 +204,7 @@ export default function Contact() {
                   <label className="text-sm font-bold text-gray-700 uppercase tracking-wider">
                     Service of Interest
                   </label>
-                  <select className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:border-vnb-blue focus:ring-2 focus:ring-vnb-blue/20 outline-none transition-all appearance-none cursor-pointer">
+                  <select className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:border-vnb-blue focus:ring-2 focus:ring-vnb-blue/20 outline-none transition-all appearance-none ">
                     <option>Solar Solutions</option>
                     <option>IT Consulting & Managed Services</option>
                     <option>Interactive Panels</option>

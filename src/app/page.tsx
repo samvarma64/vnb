@@ -1,12 +1,11 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import VNBModernHero from "@/components/VNBModernHero";
-import VNBVerticalsShowcase from "@/components/VNBVerticalsShowcase";
-import VNBGroupAbout from "@/components/VNBGroupAbout";
-import VNBWorkShowcase from "@/components/VNBWorkShowcase";
-import VNBStats from "@/components/VNBStats";
-import VNBGroupCTA from "@/components/VNBGroupCTA";
+import VNBMinimalHeroNew from "@/components/VNBMinimalHeroNew";
+import VNBStoryCards from "@/components/VNBStoryCards";
+import VNBBrandShowcase from "@/components/VNBBrandShowcase";
+import VNBMinimalStats from "@/components/VNBMinimalStats";
+import VNBMinimalCTA from "@/components/VNBMinimalCTA";
 import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
@@ -25,12 +24,11 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <Navbar />
-          <VNBModernHero />
-          <VNBVerticalsShowcase />
-          <VNBGroupAbout />
-          <VNBWorkShowcase />
-          <VNBStats />
-          <VNBGroupCTA />
+          <VNBMinimalHeroNew />
+          <VNBStoryCards />
+          <VNBBrandShowcase />
+          <VNBMinimalStats />
+          <VNBMinimalCTA />
           <Footer />
         </motion.div>
       </AnimatePresence>

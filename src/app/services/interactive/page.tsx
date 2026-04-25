@@ -51,7 +51,7 @@ export default function InteractiveServicesPage() {
         <div className="container mx-auto px-6 relative z-10">
           <Link
             href="/#services"
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-purple transition-colors mb-8 cursor-pointer"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-purple transition-colors mb-8 "
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Services</span>
@@ -81,13 +81,13 @@ export default function InteractiveServicesPage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="px-8 py-4 bg-gradient-to-r from-vnb-purple to-vnb-pink text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+                className="px-8 py-4 bg-gradient-to-r from-vnb-purple to-vnb-pink text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
               >
                 Request Demo
               </Link>
               <Link
                 href="/portfolio"
-                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-purple transition-all cursor-pointer"
+                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-purple transition-all "
               >
                 Success Stories
               </Link>
@@ -201,7 +201,7 @@ export default function InteractiveServicesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-block px-8 py-4 bg-white text-vnb-purple rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all cursor-pointer"
+              className="inline-block px-8 py-4 bg-white text-vnb-purple rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
             >
               Book a Demo
             </Link>

@@ -25,7 +25,7 @@ export default function Navbar() {
       name: "Services",
       href: "/services",
       dropdown: [
-        { name: "Solar Solutions", href: "/services/solar" },
+        { name: "Energy Solutions", href: "/solar-energy" },
         { name: "Tech Services", href: "/services/tech" },
         { name: "Interactive", href: "/services/interactive" },
       ],
@@ -34,14 +34,12 @@ export default function Navbar() {
       name: "Products",
       href: "/products",
       dropdown: [
-        { name: "Solar Panels", href: "/products/solar-panels" },
-        { name: "Tech Solutions", href: "/products/tech-solutions" },
-        { name: "Smart Devices", href: "/products/smart-devices" },
+        { name: "VNB IFPD", href: "/products/vnb-ifpd" },
+        { name: "VNB AIO", href: "/products/vnb-aio" },
       ],
     },
     { name: "About", href: "/about" },
     { name: "Portfolio", href: "/portfolio" },
-    { name: "Careers", href: "/careers" },
     { name: "Testimonials", href: "/testimonials" },
     { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
@@ -81,7 +79,7 @@ export default function Navbar() {
                     className="relative"
                     onMouseEnter={() => setActiveDropdown(item.name)}
                     onMouseLeave={() => {
-                      setTimeout(() => setActiveDropdown(null), 100);
+                      setTimeout(() => setActiveDropdown(null), 300);
                     }}
                   >
                     <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 group focus:outline-none focus:ring-2 focus:ring-blue-600/50 focus:ring-offset-2 rounded-md px-2 py-1">
@@ -101,7 +99,7 @@ export default function Navbar() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: 10 }}
                           transition={{ duration: 0.2 }}
-                          className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden"
+                          className="absolute top-full left-0 w-56 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden"
                         >
                           {item.dropdown.map((dropdownItem) => (
                             <Link

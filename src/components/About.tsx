@@ -114,7 +114,7 @@ export default function About() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.3 + index * 0.1 }}
-                        className="bg-gradient-to-br from-gray-50 to-white p-5 rounded-2xl border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 cursor-pointer"
+                        className="bg-gradient-to-br from-gray-50 to-white p-5 rounded-2xl border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 "
                       >
                         <div className="flex items-start gap-3">
                           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-vnb-blue to-vnb-green flex items-center justify-center flex-shrink-0 shadow-sm">
@@ -175,7 +175,7 @@ export default function About() {
                   transition={{ delay: 0.2 + index * 0.1 }}
                   className="group relative"
                 >
-                  <div className="flex gap-5 p-6 rounded-2xl bg-white border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 cursor-pointer">
+                  <div className="flex gap-5 p-6 rounded-2xl bg-white border border-gray-100 hover:border-vnb-blue/20 hover:shadow-lg transition-all duration-300 ">
                     <div
                       className={`flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br ${
                         value.color === "green"
