@@ -1,16 +1,11 @@
+"use client";
+
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductHero from "@/components/products/ProductHero";
 import ProductGrid from "@/components/products/ProductGrid";
 import ProductStats from "@/components/products/ProductStats";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Interactive Products & Solutions | VNB Group",
-  description:
-    "Explore VNB Group's comprehensive range of interactive technology, solar solutions, and digital learning tools.",
-};
 
 export default function ProductsPage() {
   return (
