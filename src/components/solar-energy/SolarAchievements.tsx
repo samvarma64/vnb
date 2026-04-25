@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const stats = [
-  { label: "Renewable Portfolio", value: "7.1 GWp" },
-  { label: "Goal by 2030", value: "30 GWp" },
-  { label: "India's Ranking", value: "3rd Largest" },
-  { label: "Awards Won", value: "Multiple" }
+  { label: "Renewable Capacity", value: "500+ MWp" },
+  { label: "Future Vision", value: "1 GWp+" },
+  { label: "Client Satisfaction", value: "99%" },
+  { label: "Awards Won", value: "Global Recognition" }
 ];
 
 export default function SolarAchievements() {
@@ -50,7 +50,7 @@ export default function SolarAchievements() {
               transition={{ delay: 0.1 }}
               className="text-gray-400 text-lg mb-12 leading-relaxed"
             >
-              Avaada has emerged as a leader in India’s solar energy sector, 
+              VNB has emerged as a leader in India’s solar energy sector, 
               achieving significant milestones that underscore its commitment 
               to sustainable solutions. We handle everything from project 
               inception to operational excellence.

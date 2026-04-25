@@ -6,24 +6,24 @@ import { CheckCircle2, Award, Zap } from "lucide-react";
 const features = [
   {
     title: "Customized Solutions",
-    description: "Avaada recognizes that each client has unique energy requirements, offering tailored solar energy solutions optimized for maximum efficiency and cost-effectiveness.",
+    description: "VNB recognizes that each client has unique energy requirements, offering tailored solar energy solutions optimized for maximum efficiency and cost-effectiveness.",
     icon: Settings
   },
   {
     title: "Proven Expertise",
-    description: "With over 7.1 GWp of solar projects successfully commissioned, the group's expertise in the solar energy sector is unmatched.",
+    description: "With a track record of successfully commissioned solar projects, our expertise in the energy sector ensures high-quality delivery.",
     icon: Award
   },
   {
     title: "End-to-End EPC Services",
-    description: "Coverage from site identification and quality procurement to efficient construction and ongoing maintenance.",
+    description: "Comprehensive coverage from site identification and quality procurement to efficient construction and ongoing maintenance.",
     icon: Zap
   }
 ];
 
 import { Settings } from "lucide-react";
 
-export default function WhyChooseAvaada() {
+export default function WhyChooseVNB() {
   return (
     <section className="py-24 bg-slate-50">
       <div className="container mx-auto px-6">
@@ -36,7 +36,7 @@ export default function WhyChooseAvaada() {
               className="text-4xl md:text-5xl font-bold mb-6"
             >
               Why Choose <br />
-              <span className="text-vnb-green">Avaada?</span>
+              <span className="text-vnb-green">VNB?</span>
             </motion.h2>
             <motion.p 
               initial={{ opacity: 0, x: -30 }}

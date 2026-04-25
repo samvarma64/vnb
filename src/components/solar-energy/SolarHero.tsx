@@ -34,7 +34,7 @@ export default function SolarHero() {
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed max-w-2xl">
               India is rapidly emerging as a global leader in the solar energy sector. 
-              Avaada Group is leveraging abundant sunlight and vast landscapes to harness clean, 
+              VNB Group is leveraging abundant sunlight and vast landscapes to harness clean, 
               renewable energy for a greener tomorrow.
             </p>
             <div className="flex flex-wrap gap-4">

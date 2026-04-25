@@ -19,7 +19,7 @@ export default function ServicesPage() {
         "Net Metering",
         "Maintenance Services",
       ],
-      link: "/solar-energy",
+      link: "/services/solar-energy",
       color: "from-yellow-400 to-orange-500",
     },
     {

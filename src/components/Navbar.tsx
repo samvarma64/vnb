@@ -25,7 +25,7 @@ export default function Navbar() {
       name: "Services",
       href: "/services",
       dropdown: [
-        { name: "Energy Solutions", href: "/solar-energy" },
+        { name: "Energy Solutions", href: "/services/solar-energy" },
         { name: "Tech Services", href: "/services/tech" },
         { name: "Interactive", href: "/services/interactive" },
       ],

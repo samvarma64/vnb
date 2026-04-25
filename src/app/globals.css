@@ -288,18 +288,7 @@
     @apply font-sans font-semibold tracking-tight;
   }
 
-  /* Cursor pointer for all interactive elements */
-  button,
-  a,
-  [role="button"],
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
-  select,
-  label[for],
-  .cursor-pointer {
-    cursor: pointer;
-  }
+  /* No cursor pointer for interactive elements */
 
   /* Blog content styling */
   .blog-content h2 {
