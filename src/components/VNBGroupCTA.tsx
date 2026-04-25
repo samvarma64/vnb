@@ -6,7 +6,10 @@ import { ArrowRight, Mail, Phone } from "lucide-react";
 
 export default function VNBGroupCTA() {
   return (
-    <section id="contact" className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <section
+      id="contact"
+      className="py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden"
+    >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-blob" />
@@ -26,7 +29,8 @@ export default function VNBGroupCTA() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-white/80 mb-12 max-w-2xl mx-auto">
-              Whether you need IT solutions, solar energy, or interactive technology, our team is ready to help you succeed.
+              Whether you need IT solutions, solar energy, or interactive
+              technology, our team is ready to help you succeed.
             </p>
 
             {/* CTA Buttons */}
@@ -59,10 +63,15 @@ export default function VNBGroupCTA() {
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-500/20 rounded-xl mb-4">
                   <Phone className="w-6 h-6 text-blue-400" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">VNB Technologies</h3>
-                <a href="https://vnbtech.com" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
-                  Visit Website →
-                </a>
+                <h3 className="text-white font-semibold mb-2">
+                  VNB Technologies
+                </h3>
+                <Link
+                  href="/services/tech"
+                  className="text-white/60 hover:text-white transition-colors"
+                >
+                  Explore Services →
+                </Link>
               </div>
 
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
@@ -70,19 +79,27 @@ export default function VNBGroupCTA() {
                   <Phone className="w-6 h-6 text-orange-400" />
                 </div>
                 <h3 className="text-white font-semibold mb-2">VNB Solar</h3>
-                <a href="https://vnbsolar.com" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
-                  Visit Website →
-                </a>
+                <Link
+                  href="/services/solar-energy"
+                  className="text-white/60 hover:text-white transition-colors"
+                >
+                  Explore Services →
+                </Link>
               </div>
 
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-purple-500/20 rounded-xl mb-4">
                   <Phone className="w-6 h-6 text-purple-400" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">VNB Interactive</h3>
-                <a href="https://vnb.in" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
-                  Visit Website →
-                </a>
+                <h3 className="text-white font-semibold mb-2">
+                  VNB Interactive
+                </h3>
+                <Link
+                  href="/services/interactive"
+                  className="text-white/60 hover:text-white transition-colors"
+                >
+                  Explore Services →
+                </Link>
               </div>
             </motion.div>
           </motion.div>

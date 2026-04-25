@@ -7,19 +7,19 @@ import Image from "next/image";
 const verticals = [
   {
     title: "VNB Technologies",
-    link: "https://vnbtech.com",
+    link: "/services/tech",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&h=1080&fit=crop&auto=format",
   },
   {
     title: "VNB Solar",
-    link: "https://vnbsolar.com",
+    link: "/services/solar-energy",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format",
   },
   {
     title: "VNB Interactive",
-    link: "https://vnb.in",
+    link: "/services/interactive",
     image:
       "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=1920&h=1080&fit=crop&auto=format",
   },
@@ -38,7 +38,7 @@ export default function VNBGroupHero() {
             transition={{ duration: 0.8, delay: index * 0.2 }}
             className="relative group overflow-hidden "
           >
-            <Link href={vertical.link} target="_blank" className="block h-full">
+            <Link href={vertical.link} className="block h-full">
               {/* Background Image */}
               <div className="relative h-full">
                 <Image

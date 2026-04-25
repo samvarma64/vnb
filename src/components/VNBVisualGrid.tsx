@@ -10,7 +10,7 @@ const verticals = [
   {
     title: "VNB Technologies",
     description: "IT Consulting Services",
-    link: "https://vnbtech.com",
+    link: "/services/tech",
     gradient: "from-blue-600 to-blue-800",
     hoverGradient: "from-blue-500 to-blue-700",
     image:
@@ -19,7 +19,7 @@ const verticals = [
   {
     title: "VNB Solar",
     description: "Solar Energy Solutions",
-    link: "https://vnbsolar.com",
+    link: "/services/solar-energy",
     gradient: "from-yellow-500 to-orange-600",
     hoverGradient: "from-yellow-400 to-orange-500",
     image:
@@ -28,7 +28,7 @@ const verticals = [
   {
     title: "VNB Interactive",
     description: "Interactive Technology",
-    link: "https://vnb.in",
+    link: "/services/interactive",
     gradient: "from-purple-600 to-purple-800",
     hoverGradient: "from-purple-500 to-purple-700",
     image:
@@ -72,11 +72,7 @@ export default function VNBVisualGrid() {
               viewport={{ once: true }}
               className="group"
             >
-              <Link
-                href={vertical.link}
-                target="_blank"
-                className="block h-full"
-              >
+              <Link href={vertical.link} className="block h-full">
                 <div
                   className={`relative h-96 rounded-2xl overflow-hidden transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2`}
                 >
@@ -110,7 +106,7 @@ export default function VNBVisualGrid() {
 
                     <div className="flex items-center justify-between">
                       <span className="text-white font-medium">
-                        Visit Website
+                        Explore Services
                       </span>
                       <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors">
                         <ArrowUpRight className="w-6 h-6 text-white" />

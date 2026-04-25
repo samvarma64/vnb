@@ -18,7 +18,7 @@ const verticals = [
       "Cloud AI Infrastructure",
       "Digital Transformation",
     ],
-    link: "https://vnbtech.com",
+    link: "/services/tech",
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -34,7 +34,7 @@ const verticals = [
       "Automated Optimization",
       "IoT Solar Solutions",
     ],
-    link: "https://vnbsolar.com",
+    link: "/services/solar-energy",
     color: "from-yellow-500 to-orange-500",
   },
   {
@@ -50,7 +50,7 @@ const verticals = [
       "Voice-Controlled Displays",
       "Computer Vision Solutions",
     ],
-    link: "https://vnb.in",
+    link: "/services/interactive",
     color: "from-purple-500 to-pink-500",
   },
 ];
@@ -131,10 +131,9 @@ export default function VNBVerticals() {
 
                 <Link
                   href={vertical.link}
-                  target="_blank"
                   className="inline-flex items-center gap-2 text-blue-600 font-medium group-hover:gap-3 transition-all"
                 >
-                  <span>Visit Website</span>
+                  <span>Explore Services</span>
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>

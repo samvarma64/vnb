@@ -7,19 +7,22 @@ import Image from "next/image";
 const verticals = [
   {
     title: "VNB Technologies",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop",
-    link: "https://vnbtech.com"
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop",
+    link: "/services/tech",
   },
   {
     title: "VNB Solar",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop",
-    link: "https://vnbsolar.com"
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop",
+    link: "/services/solar-energy",
   },
   {
     title: "VNB Interactive",
-    image: "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=1920&h=1080&fit=crop",
-    link: "https://vnb.in"
-  }
+    image:
+      "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=1920&h=1080&fit=crop",
+    link: "/services/interactive",
+  },
 ];
 
 export default function TataOverview() {
@@ -47,7 +50,7 @@ export default function TataOverview() {
         >
           VNB Group
         </motion.h1>
-        
+
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -67,7 +70,7 @@ export default function TataOverview() {
               transition={{ duration: 0.8, delay: 0.4 + index * 0.1 }}
               className="group"
             >
-              <Link href={vertical.link} target="_blank">
+              <Link href={vertical.link}>
                 <div className="relative h-64 rounded-2xl overflow-hidden">
                   <Image
                     src={vertical.image}

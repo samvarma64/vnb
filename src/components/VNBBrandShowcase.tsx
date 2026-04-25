@@ -9,37 +9,37 @@ const brands = [
     name: "VNB Technologies",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "https://vnbtech.com",
+    link: "/services/tech",
   },
   {
     name: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "https://vnbsolar.com",
+    link: "/services/solar-energy",
   },
   {
     name: "VNB Interactive",
     image:
       "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "https://vnb.in",
+    link: "/services/interactive",
   },
   {
     name: "Enterprise Solutions",
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "#",
+    link: "/services/tech",
   },
   {
     name: "Smart Energy",
     image:
       "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "#",
+    link: "/services/solar-energy",
   },
   {
     name: "Digital Learning",
     image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "#",
+    link: "/services/interactive",
   },
 ];
 
@@ -72,7 +72,6 @@ export default function VNBBrandShowcase() {
             >
               <Link
                 href={brand.link}
-                target={brand.link.startsWith("http") ? "_blank" : "_self"}
                 className="group block relative aspect-[4/3] overflow-hidden rounded-2xl"
               >
                 <Image

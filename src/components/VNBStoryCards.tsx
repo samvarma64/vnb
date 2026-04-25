@@ -11,21 +11,21 @@ const stories = [
     subtitle: "VNB Technologies",
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "https://vnbtech.com",
+    link: "/services/tech",
   },
   {
     title: "Sustainable Energy Solutions",
     subtitle: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "https://vnbsolar.com",
+    link: "/services/solar-energy",
   },
   {
     title: "Interactive Learning Systems",
     subtitle: "VNB Interactive",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "https://vnb.in",
+    link: "/services/interactive",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function VNBStoryCards() {
           viewport={{ once: true }}
           className="relative h-screen w-full group "
         >
-          <Link href={story.link} target="_blank" className="block h-full">
+          <Link href={story.link} className="block h-full">
             {/* Background Image */}
             <div className="absolute inset-0">
               <Image
