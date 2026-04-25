@@ -49,12 +49,6 @@ export default function SolarHero() {
         </div>
       </div>
 
-      {/* Decorative elements */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce-gentle">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center p-1">
-          <div className="w-1.5 h-1.5 bg-white rounded-full animate-scroll" />
-        </div>
-      </div>
     </section>
   );
 }

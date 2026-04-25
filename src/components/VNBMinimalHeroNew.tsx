@@ -34,22 +34,6 @@ export default function VNBMinimalHeroNew() {
           </p>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5 }}
-        className="absolute bottom-12 left-1/2 transform -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-white/40 rounded-full flex items-start justify-center p-2"
-        >
-          <div className="w-1.5 h-1.5 bg-white/60 rounded-full" />
-        </motion.div>
-      </motion.div>
     </section>
   );
 }
