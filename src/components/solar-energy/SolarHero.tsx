@@ -30,12 +30,15 @@ export default function SolarHero() {
             </span>
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Empowering India with <br />
-              <span className="text-gradient-primary animate-gradient">Sustainable Solar</span>
+              <span className="text-gradient-primary animate-gradient">
+                Sustainable Solar
+              </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed max-w-2xl">
-              India is rapidly emerging as a global leader in the solar energy sector. 
-              VNB Group is leveraging abundant sunlight and vast landscapes to harness clean, 
-              renewable energy for a greener tomorrow.
+              India is rapidly emerging as a global leader in the solar energy
+              sector. VNB India is leveraging abundant sunlight and vast
+              landscapes to harness clean, renewable energy for a greener
+              tomorrow.
             </p>
             <div className="flex flex-wrap gap-4">
               <button className="px-8 py-4 bg-vnb-green text-black font-bold rounded-full hover:bg-vnb-green/90 transition-all hover:scale-105 shadow-lg shadow-vnb-green/20">
@@ -48,7 +51,6 @@ export default function SolarHero() {
           </motion.div>
         </div>
       </div>
-
     </section>
   );
 }

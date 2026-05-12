@@ -10,7 +10,7 @@ export default function VNBMinimalHeroNew() {
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&auto=format&q=80"
-          alt="VNB Group"
+          alt="VNB India"
           fill
           priority
           className="object-cover"
@@ -27,7 +27,7 @@ export default function VNBMinimalHeroNew() {
           className="text-center"
         >
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-6 tracking-tight">
-            VNB Group
+            VNB India
           </h1>
           <p className="text-xl md:text-2xl text-white/80 font-light tracking-wide">
             Technology. Solar. Interactive.

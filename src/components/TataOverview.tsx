@@ -32,7 +32,7 @@ export default function TataOverview() {
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1517245386807-bb74f2890370?w=1920&h=1080&fit=crop"
-          alt="VNB Group"
+          alt="VNB India"
           fill
           className="object-cover"
           priority
@@ -48,7 +48,7 @@ export default function TataOverview() {
           transition={{ duration: 0.8 }}
           className="text-6xl md:text-8xl font-bold mb-8"
         >
-          VNB Group
+          VNB India
         </motion.h1>
 
         <motion.p

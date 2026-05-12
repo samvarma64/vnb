@@ -27,7 +27,7 @@ export default function TestimonialsPage() {
       category: "Technology",
       rating: 5,
       testimonial:
-        "VNB Group transformed our entire IT infrastructure. Their team's expertise in digital transformation helped us achieve 40% efficiency improvement. Truly professional and reliable partners.",
+        "VNB India transformed our entire IT infrastructure. Their team's expertise in digital transformation helped us achieve 40% efficiency improvement. Truly professional and reliable partners.",
       project: "Digital Transformation Platform",
     },
     {
@@ -51,7 +51,7 @@ export default function TestimonialsPage() {
       category: "Education",
       rating: 5,
       testimonial:
-        "Interactive panels and digital learning solutions have revolutionized our teaching methods. Student engagement has increased dramatically. Thank you, VNB Group!",
+        "Interactive panels and digital learning solutions have revolutionized our teaching methods. Student engagement has increased dramatically. Thank you, VNB India!",
       project: "Smart Classroom Implementation",
     },
     {
@@ -136,7 +136,7 @@ export default function TestimonialsPage() {
 
               <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                 Hear from our valued clients about their experience working with
-                VNB Group and how we've helped them achieve their goals.
+                VNB India and how we've helped them achieve their goals.
               </p>
             </motion.div>
           </div>

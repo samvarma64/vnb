@@ -30,10 +30,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <Head>
-        <title>VNB Group - Technology, Solar & Interactive Solutions</title>
+        <title>VNB India - Technology, Solar & Interactive Solutions</title>
         <meta
           name="description"
-          content="VNB Group - A unified platform for IT consulting services, solar energy solutions, and interactive technology. Be at the forefront of innovation."
+          content="VNB India - A unified platform for IT consulting services, solar energy solutions, and interactive technology. Be at the forefront of innovation."
         />
       </Head>
       <body className="min-h-full flex flex-col font-sans">{children}</body>

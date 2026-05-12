@@ -42,7 +42,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
               className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:ml-0 leading-relaxed"
             >
-              VNB Group integrates world-class
+              VNB India integrates world-class
               <span className="font-semibold text-vnb-blue">
                 {" "}
                 IT Consulting{" "}

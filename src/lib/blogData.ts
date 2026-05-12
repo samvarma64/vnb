@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h2>Future Outlook</h2>
-      <p>With targets to achieve 500 GW of renewable energy capacity by 2030, solar energy will play a crucial role. VNB Group is committed to being at the forefront of this transformation, providing cutting-edge solar solutions to businesses and communities across India.</p>
+      <p>With targets to achieve 500 GW of renewable energy capacity by 2030, solar energy will play a crucial role. VNB India is committed to being at the forefront of this transformation, providing cutting-edge solar solutions to businesses and communities across India.</p>
     `,
     author: "VNB Solar Team",
     category: "Solar Energy",
@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h2>VNB's Approach</h2>
-      <p>At VNB Group, we provide end-to-end digital transformation services, from strategy development to implementation and support. Our CMMI Level 3 certified processes ensure quality and reliability at every step.</p>
+      <p>At VNB India, we provide end-to-end digital transformation services, from strategy development to implementation and support. Our CMMI Level 3 certified processes ensure quality and reliability at every step.</p>
     `,
     author: "VNB Tech Team",
     category: "Technology",

@@ -138,7 +138,7 @@ export default function EnergySolutions() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 <Link href="/" className="text-white font-bold text-2xl">
-                  VNB GROUP
+                  VNB India
                 </Link>
                 <div className="hidden lg:flex items-center gap-6">
                   <Link
@@ -214,7 +214,7 @@ export default function EnergySolutions() {
               <span className="block text-yellow-400">Always On.</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-              VNB Group is a Clean Energy Conglomerate that strategically
+              VNB India is a Clean Energy Conglomerate that strategically
               integrates Solar, Wind, Hydro & and Battery Energy Storage System
               (BESS), providing clean, affordable, round-the-clock power to
               accelerate India&apos;s energy transition truly embodying our

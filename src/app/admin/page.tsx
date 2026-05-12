@@ -59,7 +59,7 @@ export default function AdminLoginPage() {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               Admin Login
             </h1>
-            <p className="text-gray-600">VNB Group Blog Management</p>
+            <p className="text-gray-600">VNB India Blog Management</p>
           </div>
 
           {/* Login Form */}

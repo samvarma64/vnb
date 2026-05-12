@@ -46,7 +46,7 @@ export default function Services() {
             variants={itemVariants}
             className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
-            From sustainable energy to world-class IT solutions, VNB Group
+            From sustainable energy to world-class IT solutions, VNB India
             provides the expertise to power your digital and ecological
             transition.
           </motion.p>
@@ -70,7 +70,7 @@ export default function Services() {
               <div className="inline-flex items-center gap-4">
                 <div className="h-0.5 w-16 bg-gray-300/20" />
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase tracking-wide">
-                  VNB Solar
+                  Solar
                 </h3>
                 <div className="h-0.5 w-16 bg-gray-300/20" />
               </div>
@@ -140,12 +140,12 @@ export default function Services() {
             </div>
           </motion.div>
 
-          {/* VNB Tech */}
+          {/* VNB Power */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            id="tech"
+            id="power"
             className="space-y-12"
           >
             <motion.div
@@ -157,13 +157,189 @@ export default function Services() {
               <div className="inline-flex items-center gap-4">
                 <div className="h-0.5 w-16 bg-gray-300/20" />
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase tracking-wide">
-                  VNB Tech Services
+                  Power
                 </h3>
                 <div className="h-0.5 w-16 bg-gray-300/20" />
               </div>
               <p className="mt-4 text-base text-gray-600 max-w-2xl mx-auto">
-                CMMI Level 3 certified technology solutions for modern
-                businesses
+                Advanced power generation and distribution solutions for
+                reliable energy infrastructure
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="Power Generation"
+                  description="Comprehensive power generation solutions using renewable and conventional sources."
+                  icon={Sun}
+                  color="blue"
+                  features={[
+                    "Renewable Energy",
+                    "Conventional Power",
+                    "Hybrid Systems",
+                  ]}
+                  href="/services/power"
+                />
+              </motion.div>
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="Grid Management"
+                  description="Smart grid solutions for efficient power distribution and management."
+                  icon={Settings}
+                  color="blue"
+                  features={[
+                    "Smart Grid Technology",
+                    "Load Management",
+                    "Grid Optimization",
+                  ]}
+                  href="/services/power"
+                />
+              </motion.div>
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="Energy Storage"
+                  description="Advanced energy storage systems for grid stability and backup power."
+                  icon={ShieldCheck}
+                  color="blue"
+                  features={[
+                    "Battery Storage",
+                    "Pumped Storage",
+                    "Grid Integration",
+                  ]}
+                  href="/services/power"
+                />
+              </motion.div>
+            </div>
+          </motion.div>
+
+          {/* VNB Infra-EPC & Construction */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            id="infra-epc-construction"
+            className="space-y-12"
+          >
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="text-center"
+            >
+              <div className="inline-flex items-center gap-4">
+                <div className="h-0.5 w-16 bg-gray-300/20" />
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase tracking-wide">
+                  Infra-EPC & Construction
+                </h3>
+                <div className="h-0.5 w-16 bg-gray-300/20" />
+              </div>
+              <p className="mt-4 text-base text-gray-600 max-w-2xl mx-auto">
+                End-to-end infrastructure development, EPC services, and
+                construction projects
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="EPC Services"
+                  description="Engineering, Procurement, and Construction services for large-scale projects."
+                  icon={Sun}
+                  color="purple"
+                  features={[
+                    "Project Management",
+                    "Engineering Design",
+                    "Construction Services",
+                  ]}
+                  href="/services/infra-epc-construction"
+                />
+              </motion.div>
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="Infrastructure Development"
+                  description="Comprehensive infrastructure development for industrial and commercial projects."
+                  icon={Settings}
+                  color="purple"
+                  features={[
+                    "Site Development",
+                    "Utilities Setup",
+                    "Civil Construction",
+                  ]}
+                  href="/services/infra-epc-construction"
+                />
+              </motion.div>
+              <motion.div
+                variants={itemVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                <ServiceCard
+                  title="Project Consulting"
+                  description="Expert consulting services for infrastructure and construction projects."
+                  icon={ShieldCheck}
+                  color="purple"
+                  features={[
+                    "Feasibility Studies",
+                    "Project Planning",
+                    "Quality Assurance",
+                  ]}
+                  href="/services/infra-epc-construction"
+                />
+              </motion.div>
+            </div>
+          </motion.div>
+
+          {/* VNB IT & Smart Services */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            id="it-smart-services"
+            className="space-y-12"
+          >
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="text-center"
+            >
+              <div className="inline-flex items-center gap-4">
+                <div className="h-0.5 w-16 bg-gray-300/20" />
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase tracking-wide">
+                  IT & Smart Services
+                </h3>
+                <div className="h-0.5 w-16 bg-gray-300/20" />
+              </div>
+              <p className="mt-4 text-base text-gray-600 max-w-2xl mx-auto">
+                CMMI Level 3 certified technology solutions and smart systems
+                for modern businesses
               </p>
             </motion.div>
 
@@ -184,7 +360,7 @@ export default function Services() {
                     "Business Alignment",
                     "Process Optimization",
                   ]}
-                  href="/services/tech"
+                  href="/services/it-smart-services"
                 />
               </motion.div>
               <motion.div
@@ -194,16 +370,16 @@ export default function Services() {
                 viewport={{ once: true }}
               >
                 <ServiceCard
-                  title="Managed Services"
-                  description="24/7 IT management and support for infrastructure, networks, and applications."
+                  title="Smart Automation"
+                  description="Intelligent automation solutions for enhanced operational efficiency."
                   icon={Settings}
                   color="blue"
                   features={[
-                    "Cloud Management",
-                    "Infrastructure Support",
-                    "Cybersecurity",
+                    "Process Automation",
+                    "Smart Controls",
+                    "IoT Integration",
                   ]}
-                  href="/services/tech"
+                  href="/services/it-smart-services"
                 />
               </motion.div>
               <motion.div
@@ -222,18 +398,18 @@ export default function Services() {
                     "Modernization",
                     "Serverless Architecture",
                   ]}
-                  href="/services/tech"
+                  href="/services/it-smart-services"
                 />
               </motion.div>
             </div>
           </motion.div>
 
-          {/* VNB Interactive */}
+          {/* VNB Trading & Distribution */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            id="interactive"
+            id="trading-distribution"
             className="space-y-12"
           >
             <motion.div
@@ -245,12 +421,13 @@ export default function Services() {
               <div className="inline-flex items-center gap-4">
                 <div className="h-0.5 w-16 bg-gray-300/20" />
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase tracking-wide">
-                  VNB Interactive
+                  Trading & Distribution
                 </h3>
                 <div className="h-0.5 w-16 bg-gray-300/20" />
               </div>
               <p className="mt-4 text-base text-gray-600 max-w-2xl mx-auto">
-                Cutting-edge interactive technology for education and business
+                Comprehensive trading and distribution solutions for energy and
+                technology products
               </p>
             </motion.div>
 
@@ -262,16 +439,16 @@ export default function Services() {
                 viewport={{ once: true }}
               >
                 <ServiceCard
-                  title="Interactive Flat Panels"
-                  description="4K UHD Interactive Panels (65'', 75'', 86'') powered by Android 11 with WiFi 6."
+                  title="Supply Chain Management"
+                  description="End-to-end supply chain solutions for efficient product distribution."
                   icon={Monitor}
                   color="purple"
                   features={[
-                    "Education Tech",
-                    "Business Web-Conferencing",
-                    "Zero Bonding Display",
+                    "Logistics Management",
+                    "Inventory Control",
+                    "Distribution Network",
                   ]}
-                  href="/services/interactive"
+                  href="/services/trading-distribution"
                 />
               </motion.div>
               <motion.div
@@ -281,15 +458,16 @@ export default function Services() {
                 viewport={{ once: true }}
               >
                 <ServiceCard
-                  title="IT Recruitment"
-                  description="Full spectrum of IT recruiting and professional staffing services since 2010."
+                  title="Global Trading"
+                  description="International trading solutions for energy and technology products."
                   icon={ShieldCheck}
                   color="purple"
                   features={[
-                    "IT Staffing",
-                    "Executive Search",
-                    "Talent Management",
+                    "Import/Export",
+                    "Market Access",
+                    "Regulatory Compliance",
                   ]}
+                  href="/services/trading-distribution"
                 />
               </motion.div>
             </div>

@@ -14,7 +14,7 @@ export default function Testimonials() {
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80",
       rating: 5,
-      text: "VNB Group transformed our IT infrastructure completely. Their expertise in cloud migration and managed services is unmatched. We achieved 99.9% uptime and reduced costs by 40%.",
+      text: "VNB India transformed our IT infrastructure completely. Their expertise in cloud migration and managed services is unmatched. We achieved 99.9% uptime and reduced costs by 40%.",
       category: "IT Services",
     },
     {
@@ -124,7 +124,7 @@ export default function Testimonials() {
             className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
             Don&apos;t just take our word for it. Hear what our clients have to
-            say about their experience working with VNB Group.
+            say about their experience working with VNB India.
           </motion.p>
         </motion.div>
 

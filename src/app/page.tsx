@@ -24,7 +24,6 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <Navbar />
-          <VNBMinimalHeroNew />
           <VNBStoryCards />
           <VNBBrandShowcase />
           <VNBMinimalStats />

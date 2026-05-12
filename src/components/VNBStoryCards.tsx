@@ -7,19 +7,20 @@ import { ArrowRight } from "lucide-react";
 
 const stories = [
   {
-    title: "Powering Digital Transformation",
-    subtitle: "VNB Technologies",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "/services/tech",
-  },
-  {
     title: "Sustainable Energy Solutions",
     subtitle: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format&q=80",
     link: "/services/solar-energy",
   },
+  {
+    title: "Powering Digital Transformation",
+    subtitle: "VNB Technologies",
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
+    link: "/services/tech",
+  },
+
   {
     title: "Interactive Learning Systems",
     subtitle: "VNB Interactive",

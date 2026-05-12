@@ -71,7 +71,7 @@ export default function AdminDashboard() {
               <h1 className="text-2xl font-bold text-gray-900">
                 Blog Management
               </h1>
-              <p className="text-sm text-gray-600">VNB Group Admin Dashboard</p>
+              <p className="text-sm text-gray-600">VNB India Admin Dashboard</p>
             </div>
             <div className="flex items-center gap-4">
               <Link
@@ -241,7 +241,10 @@ export default function AdminDashboard() {
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-4">
                         <div className="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
-                          {post.image && (post.image.endsWith('.mp4') || post.image.endsWith('.webm') || post.image.endsWith('.mov')) ? (
+                          {post.image &&
+                          (post.image.endsWith(".mp4") ||
+                            post.image.endsWith(".webm") ||
+                            post.image.endsWith(".mov")) ? (
                             <video
                               src={post.image}
                               className="w-full h-full object-cover"
@@ -251,14 +254,14 @@ export default function AdminDashboard() {
                             />
                           ) : (
                             <Image
-                              src={post.image || '/file.svg'}
+                              src={post.image || "/file.svg"}
                               alt={post.title}
                               width={64}
                               height={64}
                               className="w-full h-full object-cover"
                               onError={(e) => {
                                 const target = e.target as HTMLImageElement;
-                                target.src = '/file.svg';
+                                target.src = "/file.svg";
                               }}
                             />
                           )}
@@ -285,9 +288,7 @@ export default function AdminDashboard() {
                               : "bg-yellow-100 text-yellow-700"
                           }`}
                         >
-                          {post.status === "published"
-                            ? "Published"
-                            : "Draft"}
+                          {post.status === "published" ? "Published" : "Draft"}
                         </span>
                       </div>
                     </td>

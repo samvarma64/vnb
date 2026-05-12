@@ -48,7 +48,7 @@ export default function VNBAbout() {
               Powering the Future with Artificial Intelligence
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              VNB Group is at the forefront of the AI revolution, integrating
+              VNB India is at the forefront of the AI revolution, integrating
               artificial intelligence, machine learning, and intelligent
               automation across technology consulting, renewable energy, and
               interactive solutions to create smarter, more efficient business

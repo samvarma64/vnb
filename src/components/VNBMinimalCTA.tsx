@@ -11,7 +11,7 @@ export default function VNBMinimalCTA() {
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&auto=format&q=80"
-          alt="Contact VNB Group"
+          alt="Contact VNB India"
           fill
           className="object-cover"
         />
@@ -33,7 +33,7 @@ export default function VNBMinimalCTA() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
-              href="#contact"
+              href="/contact"
               className="px-12 py-5 bg-white text-gray-900 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105"
             >
               Get in Touch

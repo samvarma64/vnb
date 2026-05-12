@@ -17,79 +17,95 @@ import Link from "next/link";
 
 const productCategories = [
   {
-    title: "Interactive Displays",
+    title: "Solar",
     description:
-      "Cutting-edge flat panels and whiteboards designed for seamless collaboration.",
+      "Advanced solar energy systems and solutions for sustainable power generation.",
     items: [
       {
-        name: "Interactive Flat Panel",
-        link: "/products/interactive-flat-panel",
+        name: "Solar Panels",
+        link: "/products/solar-panels",
         icon: Monitor,
       },
       {
-        name: "Interactive Panels",
-        link: "/products/interactive-panels",
+        name: "Solar Inverters",
+        link: "/products/solar-inverters",
         icon: Layers,
       },
       {
-        name: "Interactive White Board",
-        link: "/products/interactive-white-board",
+        name: "Energy Storage",
+        link: "/products/energy-storage",
         icon: Layout,
       },
       {
-        name: "Touch Solutions",
-        link: "/products/touch-solutions",
+        name: "Mounting Systems",
+        link: "/products/mounting-systems",
         icon: Smartphone,
       },
     ],
-    color: "from-blue-600/20 to-cyan-500/20",
-    accent: "bg-blue-500",
+    color: "from-amber-600/20 to-orange-500/20",
+    accent: "bg-orange-500",
     span: "lg:col-span-2 lg:row-span-2",
   },
   {
-    title: "A/V & Presentation",
+    title: "Power",
     description:
-      "Professional audio systems and digital podiums for high-impact communication.",
+      "Comprehensive power generation, distribution, and management solutions.",
     items: [
-      { name: "Audio Systems", link: "/products/audio-systems", icon: Mic2 },
       {
-        name: "Digital Podium",
-        link: "/products/digital-podium",
+        name: "Power Generators",
+        link: "/products/power-generators",
+        icon: Mic2,
+      },
+      {
+        name: "Distribution Systems",
+        link: "/products/distribution-systems",
         icon: Layout,
       },
     ],
-    color: "from-vnb-green/20 to-emerald-500/20",
-    accent: "bg-vnb-green",
+    color: "from-blue-600/20 to-indigo-500/20",
+    accent: "bg-blue-600",
     span: "lg:col-span-2 lg:row-span-1",
   },
   {
-    title: "Integrated Systems",
+    title: "IT & Smart Systems",
     description:
-      "All-in-one solutions and language labs for specialized environments.",
+      "Intelligent technology solutions and smart automation systems.",
     items: [
-      { name: "Language Lab", link: "/products/language-lab", icon: BookOpen },
-      { name: "VNB AIO", link: "/products/vnb-aio", icon: Monitor },
-      { name: "VNB IFPD", link: "/products/vnb-ifpd", icon: Monitor },
-      { name: "Smart TV Kiosk", link: "/products/smart-tv-kiosk", icon: Tv },
+      {
+        name: "Smart Controllers",
+        link: "/products/smart-controllers",
+        icon: BookOpen,
+      },
+      { name: "IoT Devices", link: "/products/iot-devices", icon: Monitor },
+      {
+        name: "Automation Systems",
+        link: "/products/automation-systems",
+        icon: Monitor,
+      },
+      { name: "Smart Sensors", link: "/products/smart-sensors", icon: Tv },
     ],
-    color: "from-purple-600/20 to-pink-500/20",
-    accent: "bg-vnb-purple",
+    color: "from-emerald-600/20 to-teal-500/20",
+    accent: "bg-emerald-500",
     span: "lg:col-span-1 lg:row-span-1",
   },
   {
     title: "Infrastructure",
     description:
-      "Mounting solutions and screen size options for every installation.",
+      "Supporting infrastructure and components for complete system integration.",
     items: [
       {
-        name: "Mounting Solutions",
-        link: "/products/mounting-solutions",
+        name: "Control Systems",
+        link: "/products/control-systems",
         icon: Layers,
       },
-      { name: "Screen Sizes", link: "/products/screen-sizes", icon: Maximize },
+      {
+        name: "Monitoring Solutions",
+        link: "/products/monitoring-solutions",
+        icon: Maximize,
+      },
     ],
-    color: "from-orange-600/20 to-yellow-500/20",
-    accent: "bg-orange-500",
+    color: "from-purple-600/20 to-pink-500/20",
+    accent: "bg-purple-500",
     span: "lg:col-span-1 lg:row-span-1",
   },
 ];

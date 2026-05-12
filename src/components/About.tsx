@@ -54,7 +54,7 @@ export default function About() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-vnb-blue bg-vnb-blue/5 rounded-full border border-vnb-blue/10"
           >
-            About VNB Group
+            About VNB India
           </motion.div>
 
           <motion.h2
@@ -75,7 +75,7 @@ export default function About() {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
-            At VNB Group, we believe in the synergy between technology and
+            At VNB India, we believe in the synergy between technology and
             sustainability. Our mission is to provide businesses with the tools
             they need to thrive in a digital-first world while ensuring a
             cleaner, greener planet for future generations.
@@ -101,7 +101,7 @@ export default function About() {
 
                   <p className="text-base text-gray-600 leading-relaxed mb-8">
                     Founded in 2010 as Host4Big Technologies, we have evolved
-                    into the VNB Group—a multi-disciplinary powerhouse across
+                    into the VNB India—a multi-disciplinary powerhouse across
                     Information Technology, Sustainable Energy, and Interactive
                     Education.
                   </p>
@@ -149,7 +149,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-xl mb-8">
               <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80"
-                alt="VNB Group Team"
+                alt="VNB India Team"
                 width={800}
                 height={600}
                 className="w-full h-80 object-cover"

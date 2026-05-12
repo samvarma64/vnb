@@ -19,7 +19,7 @@ export default function ServicesPage() {
   const services = [
     {
       icon: <Sun className="w-10 h-10" />,
-      title: "Energy Solutions",
+      title: "Solar",
       description:
         "Comprehensive solar power solutions for residential, commercial, and industrial clients. Reduce your carbon footprint and energy costs.",
       features: [
@@ -28,35 +28,41 @@ export default function ServicesPage() {
         "Net Metering",
         "Maintenance Services",
       ],
-      link: "/services/solar-energy",
+      link: "/services/solar",
       gradient: "from-amber-400/20 to-orange-500/20",
       accent: "bg-orange-500",
       span: "lg:col-span-2 lg:row-span-2",
       img: "https://images.unsplash.com/photo-1509391366360-fe5bb65830bb?q=80&w=2070&auto=format&fit=crop",
     },
     {
-      icon: <Cpu className="w-8 h-8" />,
-      title: "Technology Services",
+      icon: <Zap className="w-8 h-8" />,
+      title: "Power",
       description:
-        "Cutting-edge technology solutions including digital transformation and AI integration.",
+        "Advanced power generation and distribution solutions for reliable energy infrastructure.",
       features: [
-        "Digital Transformation",
-        "Cloud Solutions",
-        "AI & ML Integration",
+        "Power Generation",
+        "Grid Management",
+        "Energy Storage",
+        "Distribution Systems",
       ],
-      link: "/services/tech",
+      link: "/services/power",
       gradient: "from-blue-400/20 to-indigo-500/20",
       accent: "bg-blue-600",
       span: "lg:col-span-2 lg:row-span-1",
       img: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop",
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: "Education Technology",
+      icon: <Shield className="w-8 h-8" />,
+      title: "IT & Smart Services",
       description:
-        "Interactive learning solutions and smart classroom implementations.",
-      features: ["Interactive Panels", "E-Learning Platforms"],
-      link: "/services/interactive",
+        "CMMI Level 3 certified technology solutions and smart systems for modern businesses.",
+      features: [
+        "Digital Transformation",
+        "Cloud Solutions",
+        "AI & ML Integration",
+        "Smart Automation",
+      ],
+      link: "/services/it-smart-services",
       gradient: "from-emerald-400/20 to-teal-500/20",
       accent: "bg-emerald-500",
       span: "lg:col-span-1 lg:row-span-1",
@@ -64,10 +70,15 @@ export default function ServicesPage() {
     },
     {
       icon: <Globe className="w-8 h-8" />,
-      title: "IoT & Smart Systems",
-      description: "Internet of Things implementations for smart environments.",
-      features: ["Smart Automation", "Sensor Integration"],
-      link: "/services/interactive",
+      title: "Trading & Distribution",
+      description:
+        "Comprehensive trading and distribution solutions for energy and technology products.",
+      features: [
+        "Supply Chain Management",
+        "Global Distribution",
+        "Market Trading",
+      ],
+      link: "/services/trading-distribution",
       gradient: "from-purple-400/20 to-fuchsia-500/20",
       accent: "bg-purple-600",
       span: "lg:col-span-1 lg:row-span-1",
@@ -77,17 +88,19 @@ export default function ServicesPage() {
 
   const additionalServices = [
     {
-      icon: <Zap className="w-6 h-6" />,
-      title: "Infrastructure",
-      description: "End-to-end infrastructure setup and modernization.",
+      icon: <Users className="w-6 h-6" />,
+      title: "Infra-EPC & Construction",
+      description:
+        "End-to-end infrastructure development, EPC services, and construction projects.",
+    },
+    {
+      icon: <Cpu className="w-6 h-6" />,
+      title: "Smart Systems",
+      description:
+        "Advanced IoT implementations and intelligent automation solutions.",
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Cybersecurity",
-      description: "Advanced security solutions to protect digital assets.",
-    },
-    {
-      icon: <Globe className="w-6 h-6" />,
       title: "Digital Strategy",
       description: "Consulting for long-term growth and innovation.",
     },

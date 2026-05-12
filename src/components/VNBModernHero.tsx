@@ -39,7 +39,7 @@ export default function VNBModernHero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight"
           >
-            VNB Group
+            VNB India
           </motion.h1>
 
           <motion.p

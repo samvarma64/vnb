@@ -60,7 +60,7 @@ export default function AboutPage() {
                 animate={{ opacity: 1, scale: 1 }}
                 className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-vnb-blue bg-vnb-blue/5 rounded-full border border-vnb-blue/10"
               >
-                About VNB Group
+                About VNB India
               </motion.div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
@@ -70,7 +70,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                VNB Group is a CMMI Level 3 certified organization dedicated to
+                VNB India is a CMMI Level 3 certified organization dedicated to
                 transforming businesses through innovative technology solutions
                 and sustainable energy initiatives.
               </p>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-gray-600 leading-relaxed">
                   <p>
                     Founded with a vision to bridge the gap between technology
-                    and sustainability, VNB Group has grown into a trusted
+                    and sustainability, VNB India has grown into a trusted
                     partner for businesses across India and beyond.
                   </p>
                   <p>
@@ -208,7 +208,7 @@ export default function AboutPage() {
                 Leadership <span className="text-gradient-primary">Team</span>
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Meet the visionaries guiding VNB Group towards excellence
+                Meet the visionaries guiding VNB India towards excellence
               </p>
             </motion.div>
 

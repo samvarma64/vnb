@@ -8,9 +8,9 @@ import IndustriesServed from "@/components/solar-energy/IndustriesServed";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solar Energy Solutions | VNB Group",
+  title: "Solar Energy Solutions | VNB India",
   description:
-    "VNB Group is a leader in India's solar energy sector, providing innovative, sustainable, and reliable solar energy solutions from utility-scale to rooftop installations.",
+    "VNB India is a leader in India's solar energy sector, providing innovative, sustainable, and reliable solar energy solutions from utility-scale to rooftop installations.",
 };
 
 export default function SolarEnergyPage() {

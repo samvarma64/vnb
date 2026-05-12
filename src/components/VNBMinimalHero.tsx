@@ -15,7 +15,7 @@ export default function VNBMinimalHero() {
         {!imageError ? (
           <Image
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop"
-            alt="VNB Group Background"
+            alt="VNB India Background"
             fill
             className="object-cover"
             priority
@@ -91,7 +91,7 @@ export default function VNBMinimalHero() {
           transition={{ duration: 0.8 }}
           className="text-6xl md:text-9xl font-bold mb-6"
         >
-          VNB Group
+          VNB India
         </motion.h1>
 
         <motion.p
@@ -117,7 +117,6 @@ export default function VNBMinimalHero() {
           </Link>
         </motion.div>
       </div>
-
     </section>
   );
 }

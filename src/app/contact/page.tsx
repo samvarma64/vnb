@@ -7,9 +7,9 @@ import {
   Mail,
   Clock,
   Send,
-  MessageSquare,
-  Headphones,
-  HelpCircle,
+  Car,
+  Coffee,
+  Wifi,
 } from "lucide-react";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
@@ -54,46 +54,25 @@ export default function ContactPage() {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Head Office",
-      details: ["123 Tech Park, Bangalore", "Karnataka 560001, India"],
+      details: [
+        "A-49, Street-3, Lane-3, Prakashnagar, Begumpet",
+        "Hyderabad – 500003, India",
+      ],
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: ["+91 80 1234 5678", "+91 80 8765 4321"],
+      details: ["+91 8333 01 8333"],
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["info@vnbgroup.com", "support@vnbgroup.com"],
+      details: ["hello@vnb.in"],
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Business Hours",
-      details: ["Mon - Fri: 9:00 AM - 7:00 PM", "Sat: 9:00 AM - 2:00 PM"],
-    },
-  ];
-
-  const supportOptions = [
-    {
-      icon: <MessageSquare className="w-8 h-8" />,
-      title: "Live Chat",
-      description: "Chat with our support team in real-time",
-      action: "Start Chat",
-      available: "24/7 Available",
-    },
-    {
-      icon: <Headphones className="w-8 h-8" />,
-      title: "Call Support",
-      description: "Speak directly with our experts",
-      action: "Call Now",
-      available: "Mon-Sat, 9AM-7PM",
-    },
-    {
-      icon: <HelpCircle className="w-8 h-8" />,
-      title: "Help Center",
-      description: "Find answers to common questions",
-      action: "Browse FAQs",
-      available: "Always Available",
+      details: ["Mon - Sat: 9:00 AM - 6:00 PM"],
     },
   ];
 
@@ -162,16 +141,15 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Contact Form & Support Options */}
+        {/* Contact Form */}
         <section className="py-20">
           <div className="container mx-auto px-6">
-            <div className="grid lg:grid-cols-3 gap-12">
+            <div className="grid lg:grid-cols-1 gap-12">
               {/* Contact Form */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="lg:col-span-2"
               >
                 <h2 className="text-3xl font-bold text-gray-900 mb-8">
                   Send us a{" "}
@@ -283,66 +261,6 @@ export default function ContactPage() {
                   </button>
                 </form>
               </motion.div>
-
-              {/* Support Options */}
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-              >
-                <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                  Other Ways to{" "}
-                  <span className="text-gradient-primary">Connect</span>
-                </h2>
-
-                <div className="space-y-6">
-                  {supportOptions.map((option, index) => (
-                    <div
-                      key={index}
-                      className="bg-gray-50 p-6 rounded-2xl hover:bg-gray-100 transition-colors "
-                    >
-                      <div className="flex items-start gap-4">
-                        <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center text-vnb-blue shadow-sm">
-                          {option.icon}
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="font-bold text-gray-900 mb-1">
-                            {option.title}
-                          </h3>
-                          <p className="text-sm text-gray-600 mb-2">
-                            {option.description}
-                          </p>
-                          <p className="text-xs text-vnb-blue font-medium mb-3">
-                            {option.available}
-                          </p>
-                          <button className="text-vnb-blue font-semibold text-sm hover:underline">
-                            {option.action} →
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                {/* Quick Links */}
-                <div className="mt-12 p-6 bg-gradient-to-br from-vnb-blue to-vnb-purple rounded-2xl text-white">
-                  <h3 className="font-bold text-xl mb-4">Quick Links</h3>
-                  <div className="space-y-3">
-                    <a href="/about" className="block hover:underline">
-                      About VNB Group
-                    </a>
-                    <a href="/portfolio" className="block hover:underline">
-                      View Our Portfolio
-                    </a>
-                    <a href="/testimonials" className="block hover:underline">
-                      Client Testimonials
-                    </a>
-                    <a href="/blog" className="block hover:underline">
-                      Latest Updates
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </div>
         </section>
@@ -364,17 +282,180 @@ export default function ContactPage() {
               </p>
             </motion.div>
 
-            <div className="bg-white rounded-2xl overflow-hidden shadow-xl">
-              <div className="aspect-video bg-gradient-to-br from-vnb-blue/20 to-vnb-purple/20 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-vnb-blue mx-auto mb-4" />
-                  <p className="text-gray-700 font-semibold">
-                    123 Tech Park, Bangalore
-                  </p>
-                  <p className="text-gray-600">Karnataka 560001, India</p>
+            <div className="grid lg:grid-cols-3 gap-8">
+              {/* Office Information Card */}
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="lg:col-span-1"
+              >
+                <div className="bg-white rounded-2xl shadow-xl p-8 h-full">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-br from-vnb-blue to-vnb-purple rounded-xl flex items-center justify-center">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">
+                        Head Office
+                      </h3>
+                      <p className="text-sm text-gray-500">Hyderabad, India</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">
+                        Address
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        A-49, Street-3, Lane-3, Prakashnagar, Begumpet
+                        <br />
+                        Hyderabad – 500003
+                        <br />
+                        Telangana, India
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">
+                        Contact
+                      </h4>
+                      <div className="space-y-2">
+                        <p className="text-gray-600">
+                          <span className="font-medium">Phone:</span> +91
+                          8333018333
+                        </p>
+                        <p className="text-gray-600">
+                          <span className="font-medium">Email:</span>{" "}
+                          hello@vnb.in
+                        </p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">
+                        Business Hours
+                      </h4>
+                      <p className="text-gray-600">
+                        Monday - Saturday: 9:00 AM - 6:00 PM
+                      </p>
+                    </div>
+
+                    <div className="pt-4 space-y-3">
+                      <a
+                        href="tel:+918333018333"
+                        className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-xl font-semibold hover:shadow-lg transition-all"
+                      >
+                        <Phone className="w-4 h-4" />
+                        Call Us
+                      </a>
+                      <a
+                        href="mailto:hello@vnb.in"
+                        className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-xl font-semibold hover:bg-gray-200 transition-all"
+                      >
+                        <Mail className="w-4 h-4" />
+                        Email Us
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </motion.div>
+
+              {/* Interactive Map */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="lg:col-span-2"
+              >
+                <div className="bg-white rounded-2xl shadow-xl overflow-hidden h-full min-h-[500px]">
+                  <div className="relative h-full">
+                    {/* Google Maps Embed */}
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4054988984!2d78.4697!3d17.4487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b0b0b0b0b0b%3A0x0!2sA-49%2C%20Street-3%2C%20Lane-3%2C%20Prakashnagar%2C%20Begumpet%2C%20Hyderabad%20%E2%80%93%20500003!5e0!3m2!1sen!2sin!4v1234567890"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0, minHeight: "500px" }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      className="w-full h-full"
+                      title="VNB India Office Location"
+                    />
+
+                    {/* Map Overlay Controls */}
+                    <div className="absolute top-4 right-4 bg-white rounded-lg shadow-lg p-2 space-y-2">
+                      <button
+                        onClick={() =>
+                          window.open(
+                            "https://maps.google.com/?q=A-49,+Street-3,+Lane-3,+Prakashnagar,+Begumpet,+Hyderabad,+500003",
+                            "_blank",
+                          )
+                        }
+                        className="block px-3 py-2 text-sm bg-vnb-blue text-white rounded hover:bg-vnb-blue/90 transition-colors"
+                      >
+                        Open in Google Maps
+                      </button>
+                      <button
+                        onClick={() =>
+                          window.open(
+                            "https://www.google.com/maps/dir/?api=1&destination=A-49,+Street-3,+Lane-3,+Prakashnagar,+Begumpet,+Hyderabad,+500003",
+                            "_blank",
+                          )
+                        }
+                        className="block px-3 py-2 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition-colors"
+                      >
+                        Get Directions
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
             </div>
+
+            {/* Additional Location Info */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="mt-12 grid md:grid-cols-3 gap-6"
+            >
+              <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-100">
+                <div className="w-12 h-12 bg-vnb-blue/10 rounded-xl flex items-center justify-center text-vnb-blue mx-auto mb-4">
+                  <Car className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">
+                  Parking Available
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Free parking for visitors
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-100">
+                <div className="w-12 h-12 bg-vnb-green/10 rounded-xl flex items-center justify-center text-vnb-green mx-auto mb-4">
+                  <Coffee className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">
+                  Refreshments
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Coffee and tea available
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-100">
+                <div className="w-12 h-12 bg-vnb-purple/10 rounded-xl flex items-center justify-center text-vnb-purple mx-auto mb-4">
+                  <Wifi className="w-6 h-6" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Free WiFi</h4>
+                <p className="text-sm text-gray-600">
+                  High-speed internet access
+                </p>
+              </div>
+            </motion.div>
           </div>
         </section>
       </main>

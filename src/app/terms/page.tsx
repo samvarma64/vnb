@@ -34,8 +34,9 @@ export default function TermsPage() {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                These terms govern your use of VNB Group&apos;s website and services. 
-                By accessing our services, you agree to be bound by these terms.
+                These terms govern your use of VNB India&apos;s website and
+                services. By accessing our services, you agree to be bound by
+                these terms.
               </p>
             </motion.div>
           </div>
@@ -61,9 +62,10 @@ export default function TermsPage() {
                   </h2>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                  By accessing and using VNB Group&apos;s website and services, you accept and agree 
-                  to be bound by the terms and provision of this agreement. If you do not agree 
-                  to abide by the above, please do not use this service.
+                  By accessing and using VNB India&apos;s website and services,
+                  you accept and agree to be bound by the terms and provision of
+                  this agreement. If you do not agree to abide by the above,
+                  please do not use this service.
                 </p>
               </div>
 
@@ -73,7 +75,7 @@ export default function TermsPage() {
                   Description of Services
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  VNB Group provides the following services:
+                  VNB India provides the following services:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                   <li>Solar energy solutions and installations</li>
@@ -113,14 +115,16 @@ export default function TermsPage() {
                   Intellectual Property
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  All content, trademarks, service marks, logos, and other intellectual property 
-                  displayed on the VNB Group website are the property of VNB Group or its licensors. 
-                  You may not use, copy, reproduce, or distribute any of these materials without 
+                  All content, trademarks, service marks, logos, and other
+                  intellectual property displayed on the VNB India website are
+                  the property of VNB India or its licensors. You may not use,
+                  copy, reproduce, or distribute any of these materials without
                   prior written consent.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Any feedback, suggestions, or ideas you provide to VNB Group shall become our 
-                  property and may be used to improve our services.
+                  Any feedback, suggestions, or ideas you provide to VNB India
+                  shall become our property and may be used to improve our
+                  services.
                 </p>
               </div>
 
@@ -135,10 +139,11 @@ export default function TermsPage() {
                   </h2>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                  VNB Group shall not be liable for any indirect, incidental, special, or 
-                  consequential damages resulting from your use of our services. Our total 
-                  liability to you for all claims shall not exceed the amount paid by you, 
-                  if any, for accessing our services.
+                  VNB India shall not be liable for any indirect, incidental,
+                  special, or consequential damages resulting from your use of
+                  our services. Our total liability to you for all claims shall
+                  not exceed the amount paid by you, if any, for accessing our
+                  services.
                 </p>
               </div>
 
@@ -148,9 +153,10 @@ export default function TermsPage() {
                   Termination
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
-                  VNB Group reserves the right to terminate or suspend your access to our 
-                  services at any time, without prior notice or liability, for any reason 
-                  whatsoever, including without limitation if you breach the Terms.
+                  VNB India reserves the right to terminate or suspend your
+                  access to our services at any time, without prior notice or
+                  liability, for any reason whatsoever, including without
+                  limitation if you breach the Terms.
                 </p>
               </div>
 
@@ -165,10 +171,10 @@ export default function TermsPage() {
                   </h2>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
-                  These Terms shall be interpreted and governed by the laws of India, 
-                  without regard to its conflict of law provisions. Any disputes arising 
-                  from these terms shall be subject to the exclusive jurisdiction of 
-                  the courts in Bangalore, India.
+                  These Terms shall be interpreted and governed by the laws of
+                  India, without regard to its conflict of law provisions. Any
+                  disputes arising from these terms shall be subject to the
+                  exclusive jurisdiction of the courts in Bangalore, India.
                 </p>
               </div>
 
@@ -178,10 +184,10 @@ export default function TermsPage() {
                   Changes to Terms
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
-                  VNB Group reserves the right to modify these terms at any time. 
-                  We will notify users of any changes by posting the new terms on 
-                  this page. Your continued use of our services after such changes 
-                  constitutes acceptance of the new terms.
+                  VNB India reserves the right to modify these terms at any
+                  time. We will notify users of any changes by posting the new
+                  terms on this page. Your continued use of our services after
+                  such changes constitutes acceptance of the new terms.
                 </p>
               </div>
 
@@ -191,23 +197,33 @@ export default function TermsPage() {
                   Contact Us
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  If you have any questions about these Terms of Service, please contact us:
+                  If you have any questions about these Terms of Service, please
+                  contact us:
                 </p>
                 <div className="space-y-2 text-gray-600">
-                  <p><strong>Email:</strong> legal@vnbgroup.com</p>
-                  <p><strong>Phone:</strong> +91 80 1234 5678</p>
-                  <p><strong>Address:</strong> 123 Tech Park, Bangalore, Karnataka 560001, India</p>
+                  <p>
+                    <strong>Email:</strong> legal@vnbindia.com
+                  </p>
+                  <p>
+                    <strong>Phone:</strong> +91 80 1234 5678
+                  </p>
+                  <p>
+                    <strong>Address:</strong> 123 Tech Park, Bangalore,
+                    Karnataka 560001, India
+                  </p>
                 </div>
               </div>
 
               {/* Last Updated */}
               <div className="text-center pt-8 border-t border-gray-200">
                 <p className="text-sm text-gray-500">
-                  These Terms of Service were last updated on {new Date().toLocaleDateString("en-US", { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                  })}.
+                  These Terms of Service were last updated on{" "}
+                  {new Date().toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                  .
                 </p>
               </div>
             </motion.div>

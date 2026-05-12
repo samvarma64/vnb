@@ -43,7 +43,7 @@ export default function CTA() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Join hundreds of satisfied clients who trust VNB Group for their
+              Join hundreds of satisfied clients who trust VNB India for their
               solar, technology, and interactive solutions.
             </p>
           </motion.div>
@@ -110,7 +110,9 @@ export default function CTA() {
             transition={{ delay: 0.7 }}
             className="mt-12 text-center"
           >
-            <p className="text-white/70 text-sm mb-4">Trusted by leading organizations across India</p>
+            <p className="text-white/70 text-sm mb-4">
+              Trusted by leading organizations across India
+            </p>
             <div className="flex flex-wrap justify-center gap-8 items-center opacity-60">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div

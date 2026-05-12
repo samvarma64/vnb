@@ -56,14 +56,14 @@ export default function PrivacyPage() {
                   Introduction
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
-                  At VNB Group, we are committed to protecting your privacy and
+                  At VNB India, we are committed to protecting your privacy and
                   ensuring the security of your personal information. This
                   Privacy Policy outlines our practices regarding the
                   collection, use, and disclosure of your data when you use our
                   website and services.
                 </p>
                 <p className="text-gray-600 leading-relaxed mt-4">
-                  By using VNB Group&apos;s services, you agree to the
+                  By using VNB India&apos;s services, you agree to the
                   collection and use of information in accordance with this
                   policy.
                 </p>
@@ -180,7 +180,7 @@ export default function PrivacyPage() {
                 </p>
                 <div className="space-y-2 text-gray-600">
                   <p>
-                    <strong>Email:</strong> privacy@vnbgroup.com
+                    <strong>Email:</strong> privacy@vnbindia.com
                   </p>
                   <p>
                     <strong>Phone:</strong> +91 80 1234 5678

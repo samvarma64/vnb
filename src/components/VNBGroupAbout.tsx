@@ -29,7 +29,7 @@ const values = [
   },
 ];
 
-export default function VNBGroupAbout() {
+export default function vnbindiaAbout() {
   return (
     <section
       id="about"
@@ -46,11 +46,11 @@ export default function VNBGroupAbout() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About VNB Group
+              About VNB India
             </h2>
             <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
               <p>
-                VNB Group is a diversified technology and energy conglomerate
+                VNB India is a diversified technology and energy conglomerate
                 with three specialized business verticals, each excelling in
                 their respective domains.
               </p>

@@ -56,7 +56,7 @@ export default function VNBBrandShowcase() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-            Our Brands
+            Our Projects
           </h2>
         </motion.div>
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, Mail, Phone } from "lucide-react";
 
-export default function VNBGroupCTA() {
+export default function vnbindiaCTA() {
   return (
     <section
       id="contact"
@@ -43,7 +43,7 @@ export default function VNBGroupCTA() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-                href="mailto:info@vnbgroup.com"
+                href="mailto:info@vnbindia.com"
                 className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300"
               >
                 <Mail className="w-5 h-5" />

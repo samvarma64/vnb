@@ -25,7 +25,7 @@ const verticals = [
   },
 ];
 
-export default function VNBGroupHero() {
+export default function vnbindiaHero() {
   return (
     <section className="relative min-h-screen">
       {/* Full Screen Image Grid */}
@@ -90,14 +90,14 @@ export default function VNBGroupHero() {
         ))}
       </div>
 
-      {/* Optional: VNB Group Logo Overlay */}
+      {/* Optional: VNB India Logo Overlay */}
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1 }}
         className="absolute top-8 left-8 z-10"
       >
-        <h1 className="text-3xl md:text-4xl font-bold text-white">VNB Group</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-white">VNB India</h1>
       </motion.div>
     </section>
   );

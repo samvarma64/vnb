@@ -7,23 +7,6 @@ import { ArrowRight, Monitor, Sun, Tablet } from "lucide-react";
 
 const verticals = [
   {
-    icon: Monitor,
-    title: "VNB Technologies",
-    subtitle: "IT Consulting & Solutions",
-    description:
-      "Comprehensive IT consulting services, cloud solutions, software development, and digital transformation strategies for modern businesses.",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format&q=80",
-    link: "/services/tech",
-    color: "from-blue-600 to-cyan-600",
-    features: [
-      "Cloud Solutions",
-      "Software Development",
-      "IT Consulting",
-      "Digital Transformation",
-    ],
-  },
-  {
     icon: Sun,
     title: "VNB Solar",
     subtitle: "Sustainable Energy Solutions",
@@ -40,6 +23,24 @@ const verticals = [
       "Maintenance",
     ],
   },
+  {
+    icon: Monitor,
+    title: "VNB Technologies",
+    subtitle: "IT Consulting & Solutions",
+    description:
+      "Comprehensive IT consulting services, cloud solutions, software development, and digital transformation strategies for modern businesses.",
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format&q=80",
+    link: "/services/tech",
+    color: "from-blue-600 to-cyan-600",
+    features: [
+      "Cloud Solutions",
+      "Software Development",
+      "IT Consulting",
+      "Digital Transformation",
+    ],
+  },
+
   {
     icon: Tablet,
     title: "VNB Interactive",

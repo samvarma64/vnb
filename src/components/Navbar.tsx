@@ -25,17 +25,26 @@ export default function Navbar() {
       name: "Services",
       href: "/services",
       dropdown: [
-        { name: "Energy Solutions", href: "/services/solar-energy" },
-        { name: "Tech Services", href: "/services/tech" },
-        { name: "Interactive", href: "/services/interactive" },
+        { name: "Solar", href: "/services/solar" },
+        { name: "Power", href: "/services/power" },
+        {
+          name: "Infra-EPC & Construction",
+          href: "/services/infra-epc-construction",
+        },
+        { name: "IT & Smart Services", href: "/services/it-smart-services" },
+        {
+          name: "Trading & Distribution",
+          href: "/services/trading-distribution",
+        },
       ],
     },
     {
       name: "Products",
       href: "/products",
       dropdown: [
-        { name: "VNB IFPD", href: "/products/vnb-ifpd" },
-        { name: "VNB AIO", href: "/products/vnb-aio" },
+        { name: "Solar", href: "/products/solar" },
+        { name: "Power", href: "/products/power" },
+        { name: "IT & Smart Systems", href: "/products/it-smart-systems" },
       ],
     },
     { name: "About", href: "/about" },

@@ -71,7 +71,7 @@ export default function BlogPage() {
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
-              VNB Group <span className="text-gradient-primary">Blog</span>
+              VNB India <span className="text-gradient-primary">Blog</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">

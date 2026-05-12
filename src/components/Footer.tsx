@@ -89,7 +89,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-gray-400 leading-relaxed text-sm">
-              VNB Group is a unified platform providing IT consulting services,
+              VNB India is a unified platform providing IT consulting services,
               solar energy solutions, and interactive technology for businesses
               and educational institutions.
             </p>
@@ -102,7 +102,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span className="text-sm">+91 8333 01 8333</span>
+                <span className="text-sm">+91 8333018333</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
                 <svg
@@ -230,7 +230,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              &copy; {currentYear} VNB Group. All rights reserved.
+              &copy; {currentYear} VNB India. All rights reserved.
             </p>
 
             <div className="flex items-center gap-6">

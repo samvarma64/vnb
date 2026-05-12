@@ -6,9 +6,7 @@
     "author": "VNB Team",
     "category": "Solar Energy",
     "image": "/uploads/blog/1775706165710-13232-246463976_medium.mp4",
-    "tags": [
-      "tyest233"
-    ],
+    "tags": ["tyest233"],
     "readTime": "1 min read",
     "status": "published",
     "id": "1775705602957",
@@ -20,18 +18,13 @@
     "title": "The Future of Solar Energy in India",
     "slug": "future-of-solar-energy-india",
     "excerpt": "Exploring how solar energy is transforming India's renewable energy landscape and what the future holds for sustainable power generation.",
-    "content": "<p>India is rapidly emerging as a global leader in solar energy adoption. With ambitious targets and innovative policies, the country is paving the way for a sustainable energy future.</p><h2>Current State of Solar Energy</h2><p>As of 2024, India has installed over 70 GW of solar capacity, making it one of the top solar markets globally. The government's push for renewable energy has created unprecedented opportunities for businesses and homeowners alike.</p><h2>Key Drivers of Growth</h2><ul><li>Decreasing solar panel costs</li><li>Government incentives and subsidies</li><li>Increasing awareness about climate change</li><li>Technological advancements in solar efficiency</li></ul><h2>Future Outlook</h2><p>With targets to achieve 500 GW of renewable energy capacity by 2030, solar energy will play a crucial role. VNB Group is committed to being at the forefront of this transformation, providing cutting-edge solar solutions to businesses and communities across India.</p>",
+    "content": "<p>India is rapidly emerging as a global leader in solar energy adoption. With ambitious targets and innovative policies, the country is paving the way for a sustainable energy future.</p><h2>Current State of Solar Energy</h2><p>As of 2024, India has installed over 70 GW of solar capacity, making it one of the top solar markets globally. The government's push for renewable energy has created unprecedented opportunities for businesses and homeowners alike.</p><h2>Key Drivers of Growth</h2><ul><li>Decreasing solar panel costs</li><li>Government incentives and subsidies</li><li>Increasing awareness about climate change</li><li>Technological advancements in solar efficiency</li></ul><h2>Future Outlook</h2><p>With targets to achieve 500 GW of renewable energy capacity by 2030, solar energy will play a crucial role. VNB India is committed to being at the forefront of this transformation, providing cutting-edge solar solutions to businesses and communities across India.</p>",
     "author": "VNB Solar Team",
     "category": "Solar Energy",
     "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=600&fit=crop&q=80",
     "date": "2024-03-15",
     "readTime": "5 min read",
-    "tags": [
-      "Solar Energy",
-      "Renewable Energy",
-      "India",
-      "Sustainability"
-    ],
+    "tags": ["Solar Energy", "Renewable Energy", "India", "Sustainability"],
     "status": "published"
   },
   {
@@ -39,18 +32,13 @@
     "title": "Digital Transformation: A Complete Guide for Businesses",
     "slug": "digital-transformation-guide",
     "excerpt": "Learn how digital transformation can revolutionize your business operations and drive growth in the modern economy.",
-    "content": "<p>Digital transformation is no longer optional—it's essential for businesses to remain competitive in today's fast-paced market.</p><h2>What is Digital Transformation?</h2><p>Digital transformation involves integrating digital technology into all areas of business, fundamentally changing how you operate and deliver value to customers.</p><h2>Key Benefits</h2><ul><li>Improved operational efficiency</li><li>Enhanced customer experience</li><li>Data-driven decision making</li><li>Increased agility and innovation</li><li>Cost reduction through automation</li></ul><h2>VNB's Approach</h2><p>At VNB Group, we provide end-to-end digital transformation services, from strategy development to implementation and support. Our CMMI Level 3 certified processes ensure quality and reliability at every step.</p>",
+    "content": "<p>Digital transformation is no longer optional—it's essential for businesses to remain competitive in today's fast-paced market.</p><h2>What is Digital Transformation?</h2><p>Digital transformation involves integrating digital technology into all areas of business, fundamentally changing how you operate and deliver value to customers.</p><h2>Key Benefits</h2><ul><li>Improved operational efficiency</li><li>Enhanced customer experience</li><li>Data-driven decision making</li><li>Increased agility and innovation</li><li>Cost reduction through automation</li></ul><h2>VNB's Approach</h2><p>At VNB India, we provide end-to-end digital transformation services, from strategy development to implementation and support. Our CMMI Level 3 certified processes ensure quality and reliability at every step.</p>",
     "author": "VNB Tech Team",
     "category": "Technology",
     "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop&q=80",
     "date": "2024-03-10",
     "readTime": "7 min read",
-    "tags": [
-      "Digital Transformation",
-      "Technology",
-      "Business",
-      "IT Services"
-    ],
+    "tags": ["Digital Transformation", "Technology", "Business", "IT Services"],
     "status": "published"
   },
   {
@@ -64,12 +52,7 @@
     "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=600&fit=crop&q=80",
     "date": "2024-03-05",
     "readTime": "6 min read",
-    "tags": [
-      "Education",
-      "Interactive Technology",
-      "EdTech",
-      "Innovation"
-    ],
+    "tags": ["Education", "Interactive Technology", "EdTech", "Innovation"],
     "status": "published"
   }
 ]
