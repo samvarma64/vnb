@@ -18,7 +18,7 @@ const projects = [
   },
   {
     icon: Monitor,
-    category: "VNB Technologies",
+    category: "VNB Power",
     title: "Digital Transformation",
     description: "Complete IT infrastructure for manufacturing company",
     image:

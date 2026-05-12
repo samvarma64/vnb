@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const verticals = [
   {
-    title: "VNB Technologies",
+    title: "VNB Power",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop",
     link: "/services/power",

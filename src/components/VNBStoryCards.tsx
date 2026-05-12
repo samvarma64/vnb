@@ -15,7 +15,7 @@ const stories = [
   },
   {
     title: "Powering Digital Transformation",
-    subtitle: "VNB Technologies",
+    subtitle: "VNB Power",
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
     link: "/services/power",

@@ -7,7 +7,7 @@ import { ArrowRight, Monitor, Sun, Tablet } from "lucide-react";
 const verticals = [
   {
     icon: Monitor,
-    title: "VNB Technologies",
+    title: "VNB Power",
     description: "AI-Driven IT Consulting Services",
     tagline: "Leading the AI Revolution",
     services: [

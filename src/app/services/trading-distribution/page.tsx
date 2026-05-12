@@ -163,7 +163,7 @@ export default function TradingDistributionPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-orange/20 hover:shadow-xl transition-all"
+                className="bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 rounded-3xl p-8 border border-vnb-orange/20 hover:border-vnb-orange/40 hover:shadow-xl transition-all"
               >
                 <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-2xl flex items-center justify-center mb-6 shadow-xl ring-2 ring-vnb-orange/30">
                   <service.icon className="w-8 h-8 text-white drop-shadow-lg" />
@@ -539,9 +539,9 @@ export default function TradingDistributionPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-orange/20 hover:shadow-xl transition-all text-center"
+                className="bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 rounded-3xl p-8 border border-vnb-orange/20 hover:border-vnb-orange/40 hover:shadow-xl transition-all text-center"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange/90 to-vnb-yellow/90 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl ring-2 ring-vnb-orange/30">
                   <item.icon className="w-8 h-8 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -617,9 +617,9 @@ export default function TradingDistributionPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-green/20 hover:shadow-xl transition-all"
+                className="bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 rounded-3xl p-8 border border-vnb-green/20 hover:border-vnb-green/40 hover:shadow-xl transition-all"
               >
-                <div className="w-14 h-14 bg-gradient-to-br from-vnb-green/90 to-vnb-blue/90 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                <div className="w-14 h-14 bg-gradient-to-br from-vnb-green to-vnb-blue rounded-2xl flex items-center justify-center mb-6 shadow-xl ring-2 ring-vnb-green/30">
                   <item.icon className="w-7 h-7 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">

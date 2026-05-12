@@ -15,7 +15,7 @@ const projects = [
   {
     icon: Building2,
     title: "Enterprise IT Solutions",
-    category: "VNB Technologies",
+    category: "VNB Power",
     description:
       "Comprehensive digital transformation for Fortune 500 companies",
     image:
@@ -45,7 +45,7 @@ const projects = [
   {
     icon: Hospital,
     title: "Healthcare IT Infrastructure",
-    category: "VNB Technologies",
+    category: "VNB Power",
     description: "Secure and scalable IT systems for healthcare providers",
     image:
       "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop&auto=format&q=80",

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const brands = [
   {
-    name: "VNB Technologies",
+    name: "VNB Power",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format&q=80",
     link: "/services/power",

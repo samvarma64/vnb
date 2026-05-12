@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const verticals = [
   {
-    title: "VNB Technologies",
+    title: "VNB Power",
     description: "IT Consulting Services",
     link: "/services/power",
     gradient: "from-blue-600 to-blue-800",

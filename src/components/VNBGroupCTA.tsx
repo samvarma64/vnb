@@ -63,9 +63,7 @@ export default function vnbindiaCTA() {
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-500/20 rounded-xl mb-4">
                   <Phone className="w-6 h-6 text-blue-400" />
                 </div>
-                <h3 className="text-white font-semibold mb-2">
-                  VNB Technologies
-                </h3>
+                <h3 className="text-white font-semibold mb-2">VNB Power</h3>
                 <Link
                   href="/services/power"
                   className="text-white/60 hover:text-white transition-colors"

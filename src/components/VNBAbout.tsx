@@ -100,7 +100,7 @@ export default function VNBAbout() {
                 <div className="w-20 h-20 bg-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl font-bold">AI</span>
                 </div>
-                <h4 className="text-xl font-semibold mb-3">VNB Technologies</h4>
+                <h4 className="text-xl font-semibold mb-3">VNB Power</h4>
                 <p className="text-gray-600">
                   Delivers AI-driven consulting and intelligent automation
                   solutions for digital transformation

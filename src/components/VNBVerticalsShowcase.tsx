@@ -25,7 +25,7 @@ const verticals = [
   },
   {
     icon: Monitor,
-    title: "VNB Technologies",
+    title: "VNB Power",
     subtitle: "IT Consulting & Solutions",
     description:
       "Comprehensive IT consulting services, cloud solutions, software development, and digital transformation strategies for modern businesses.",
