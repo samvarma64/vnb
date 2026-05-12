@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -31,47 +32,71 @@ export default function SolarEPCPage() {
             <span>Back to Solar Services</span>
           </Link>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-4xl"
-          >
-            <div className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-vnb-green bg-vnb-green/5 rounded-full border border-vnb-green/10">
-              <Zap className="w-4 h-4" />
-              Solar EPC Services
-            </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              <div className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-vnb-green bg-vnb-green/5 rounded-full border border-vnb-green/10">
+                <Zap className="w-4 h-4" />
+                Solar EPC Services
+              </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
-              End-to-End Solar{" "}
-              <span className="text-gradient-primary">EPC Solutions</span>
-            </h1>
+              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
+                End-to-End Solar{" "}
+                <span className="text-gradient-primary">EPC Solutions</span>
+              </h1>
 
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              From technical surveys to the final activation of a solar plant,
-              every single detail of your solar project is managed by us.
-              Engineering, procurement, and construction — all under one roof
-              for a hassle-free experience and lasting results.
-            </p>
+              <p className="text-xl text-gray-600 leading-relaxed mb-8">
+                From technical surveys to the final activation of a solar plant,
+                every single detail of your solar project is managed by us.
+                Engineering, procurement, and construction - all under one roof
+                for a hassle-free experience and lasting results.
+              </p>
 
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/contact"
-                className="px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
-              >
-                Get a Free Quote
-              </Link>
-              <Link
-                href="/portfolio"
-                className="px-8 py-4 bg-white text-vnb-green border-2 border-vnb-green/20 rounded-xl font-semibold hover:bg-vnb-green/5 transition-all"
-              >
-                View Projects
-              </Link>
-            </div>
-          </motion.div>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/contact"
+                  className="px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                >
+                  Get a Free Quote
+                </Link>
+                <Link
+                  href="/portfolio"
+                  className="px-8 py-4 bg-white text-vnb-green border-2 border-vnb-green/20 rounded-xl font-semibold hover:bg-vnb-green/5 transition-all"
+                >
+                  View Projects
+                </Link>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2 }}
+              className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
+            >
+              <Image
+                src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop&q=80"
+                alt="Solar EPC Project"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <p className="text-lg font-bold">
+                  Complete Solar Project Execution
+                </p>
+                <p className="text-sm text-white/80">
+                  From design to commissioning - all under one roof
+                </p>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
-      {/* 1. EPC — Residential, Commercial & Industrial */}
+      {/* 1. EPC - Residential, Commercial & Industrial */}
       <section className="py-20">
         <div className="container mx-auto px-6">
           <motion.div
@@ -183,12 +208,12 @@ export default function SolarEPCPage() {
             </h2>
             <p className="text-lg text-gray-600">
               Rooftop solar systems from VNB Solar are engineered for
-              performance, reliability, and value — trusted by families and
+              performance, reliability, and value - trusted by families and
               businesses across India.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -221,6 +246,50 @@ export default function SolarEPCPage() {
                   </li>
                 ))}
               </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
+            >
+              <Image
+                src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&h=600&fit=crop&q=80"
+                alt="Rooftop Solar Installation"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <p className="text-lg font-bold">Rooftop Solar Systems</p>
+                <p className="text-sm text-white/80">
+                  Optimized for performance and aesthetics
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
+            >
+              <Image
+                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop&q=80"
+                alt="Ground Mounted Solar Farm"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 text-white">
+                <p className="text-lg font-bold">Ground Mounted Systems</p>
+                <p className="text-sm text-white/80">
+                  Large-scale utility-grade solar installations
+                </p>
+              </div>
             </motion.div>
 
             <motion.div
@@ -279,7 +348,7 @@ export default function SolarEPCPage() {
                 With net metering, the excess solar energy your system generates
                 is exported back to the grid, and you earn credits on your
                 electricity bill. VNB Solar handles the complete net metering
-                process — from application to approval — so you can maximize
+                process - from application to approval - so you can maximize
                 your solar investment.
               </p>
               <ul className="space-y-4 mb-8">
@@ -310,50 +379,68 @@ export default function SolarEPCPage() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-vnb-purple/5 to-vnb-pink/5 rounded-3xl p-10 border border-vnb-purple/10"
+              className="space-y-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                How Net Metering Works
-              </h3>
-              <div className="space-y-6">
-                {[
-                  {
-                    step: "01",
-                    title: "Solar Generation",
-                    desc: "Your solar panels generate electricity during the day to power your home or business.",
-                  },
-                  {
-                    step: "02",
-                    title: "Excess Export",
-                    desc: "Any surplus energy not consumed is automatically exported to the electricity grid.",
-                  },
-                  {
-                    step: "03",
-                    title: "Credit Earned",
-                    desc: "A bi-directional meter records the energy exported, and you earn credits from your DISCOM.",
-                  },
-                  {
-                    step: "04",
-                    title: "Bill Adjustment",
-                    desc: "Credits are adjusted against your electricity bill, reducing it to near zero or even generating income.",
-                  },
-                ].map((item, i) => (
-                  <div key={i} className="flex gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-vnb-purple to-vnb-pink rounded-xl flex items-center justify-center flex-shrink-0">
-                      <span className="text-white font-bold text-sm">
-                        {item.step}
-                      </span>
+              <div className="relative h-[250px] rounded-3xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=800&h=400&fit=crop&q=80"
+                  alt="Net Metering Solar System"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="text-lg font-bold">Net Metering</p>
+                  <p className="text-sm text-white/80">
+                    Export surplus energy & earn credits
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-vnb-purple/5 to-vnb-pink/5 rounded-3xl p-10 border border-vnb-purple/10">
+                <h3 className="text-2xl font-bold text-gray-900 mb-8">
+                  How Net Metering Works
+                </h3>
+                <div className="space-y-6">
+                  {[
+                    {
+                      step: "01",
+                      title: "Solar Generation",
+                      desc: "Your solar panels generate electricity during the day to power your home or business.",
+                    },
+                    {
+                      step: "02",
+                      title: "Excess Export",
+                      desc: "Any surplus energy not consumed is automatically exported to the electricity grid.",
+                    },
+                    {
+                      step: "03",
+                      title: "Credit Earned",
+                      desc: "A bi-directional meter records the energy exported, and you earn credits from your DISCOM.",
+                    },
+                    {
+                      step: "04",
+                      title: "Bill Adjustment",
+                      desc: "Credits are adjusted against your electricity bill, reducing it to near zero or even generating income.",
+                    },
+                  ].map((item, i) => (
+                    <div key={i} className="flex gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-vnb-purple to-vnb-pink rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span className="text-white font-bold text-sm">
+                          {item.step}
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1">
+                          {item.title}
+                        </h4>
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                          {item.desc}
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">
-                        {item.title}
-                      </h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        {item.desc}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </motion.div>
           </div>
@@ -427,8 +514,17 @@ export default function SolarEPCPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
+      <section className="py-20 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1574482620826-40685ca5ebd2?w=1600&h=400&fit=crop&q=80"
+            alt="Solar Energy Background"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-white/90" />
+        </div>
+        <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

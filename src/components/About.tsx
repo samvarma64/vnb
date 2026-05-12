@@ -101,7 +101,7 @@ export default function About() {
 
                   <p className="text-base text-gray-600 leading-relaxed mb-8">
                     Founded in 2010 as Host4Big Technologies, we have evolved
-                    into the VNB India—a multi-disciplinary powerhouse across
+                    into the VNB India-a multi-disciplinary powerhouse across
                     Information Technology, Sustainable Energy, and Interactive
                     Education.
                   </p>

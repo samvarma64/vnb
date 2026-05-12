@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Learn how digital transformation can revolutionize your business operations and drive growth in the modern economy.",
     content: `
-      <p>Digital transformation is no longer optional—it's essential for businesses to remain competitive in today's fast-paced market.</p>
+      <p>Digital transformation is no longer optional-it's essential for businesses to remain competitive in today's fast-paced market.</p>
       
       <h2>What is Digital Transformation?</h2>
       <p>Digital transformation involves integrating digital technology into all areas of business, fundamentally changing how you operate and deliver value to customers.</p>
