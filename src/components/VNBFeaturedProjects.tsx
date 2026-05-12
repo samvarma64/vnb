@@ -13,7 +13,7 @@ const projects = [
     description: "Large-scale solar power project delivering clean energy",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop",
-    link: "/services/solar-energy",
+    link: "/services/solar",
     stats: "100MW Capacity",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description: "Complete IT infrastructure for manufacturing company",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    link: "/services/tech",
+    link: "/services/power",
     stats: "500+ Employees",
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description: "Interactive panels deployed across schools",
     image:
       "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=600&h=400&fit=crop",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
     stats: "100+ Schools",
   },
 ];

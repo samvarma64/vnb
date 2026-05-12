@@ -11,14 +11,14 @@ const stories = [
     subtitle: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "/services/solar-energy",
+    link: "/services/solar",
   },
   {
     title: "Powering Digital Transformation",
     subtitle: "VNB Technologies",
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "/services/tech",
+    link: "/services/power",
   },
 
   {
@@ -26,7 +26,7 @@ const stories = [
     subtitle: "VNB Interactive",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop&auto=format&q=80",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
   },
 ];
 

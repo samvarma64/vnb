@@ -14,7 +14,7 @@ const verticals = [
       "Leading provider of solar energy solutions, from residential installations to large-scale commercial projects with cutting-edge technology.",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=800&fit=crop&auto=format&q=80",
-    link: "/services/solar-energy",
+    link: "/services/solar",
     color: "from-orange-600 to-yellow-600",
     features: [
       "Solar Installation",
@@ -31,7 +31,7 @@ const verticals = [
       "Comprehensive IT consulting services, cloud solutions, software development, and digital transformation strategies for modern businesses.",
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&auto=format&q=80",
-    link: "/services/tech",
+    link: "/services/power",
     color: "from-blue-600 to-cyan-600",
     features: [
       "Cloud Solutions",
@@ -49,7 +49,7 @@ const verticals = [
       "Innovative interactive display solutions, smart boards, and digital collaboration tools for education and corporate environments.",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop&auto=format&q=80",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
     color: "from-purple-600 to-pink-600",
     features: [
       "Interactive Displays",

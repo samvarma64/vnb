@@ -18,7 +18,7 @@ const verticals = [
       "Cloud AI Infrastructure",
       "Digital Transformation",
     ],
-    link: "/services/tech",
+    link: "/services/power",
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -34,7 +34,7 @@ const verticals = [
       "Automated Optimization",
       "IoT Solar Solutions",
     ],
-    link: "/services/solar-energy",
+    link: "/services/solar",
     color: "from-yellow-500 to-orange-500",
   },
   {
@@ -50,7 +50,7 @@ const verticals = [
       "Voice-Controlled Displays",
       "Computer Vision Solutions",
     ],
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
     color: "from-purple-500 to-pink-500",
   },
 ];

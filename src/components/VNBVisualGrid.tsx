@@ -10,7 +10,7 @@ const verticals = [
   {
     title: "VNB Technologies",
     description: "IT Consulting Services",
-    link: "/services/tech",
+    link: "/services/power",
     gradient: "from-blue-600 to-blue-800",
     hoverGradient: "from-blue-500 to-blue-700",
     image:
@@ -19,7 +19,7 @@ const verticals = [
   {
     title: "VNB Solar",
     description: "Solar Energy Solutions",
-    link: "/services/solar-energy",
+    link: "/services/solar",
     gradient: "from-yellow-500 to-orange-600",
     hoverGradient: "from-yellow-400 to-orange-500",
     image:
@@ -28,7 +28,7 @@ const verticals = [
   {
     title: "VNB Interactive",
     description: "Interactive Technology",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
     gradient: "from-purple-600 to-purple-800",
     hoverGradient: "from-purple-500 to-purple-700",
     image:

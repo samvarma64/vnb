@@ -67,7 +67,7 @@ export default function vnbindiaCTA() {
                   VNB Technologies
                 </h3>
                 <Link
-                  href="/services/tech"
+                  href="/services/power"
                   className="text-white/60 hover:text-white transition-colors"
                 >
                   Explore Services →
@@ -80,7 +80,7 @@ export default function vnbindiaCTA() {
                 </div>
                 <h3 className="text-white font-semibold mb-2">VNB Solar</h3>
                 <Link
-                  href="/services/solar-energy"
+                  href="/services/solar"
                   className="text-white/60 hover:text-white transition-colors"
                 >
                   Explore Services →
@@ -95,7 +95,7 @@ export default function vnbindiaCTA() {
                   VNB Interactive
                 </h3>
                 <Link
-                  href="/services/interactive"
+                  href="/services/it-smart-services"
                   className="text-white/60 hover:text-white transition-colors"
                 >
                   Explore Services →

@@ -9,19 +9,19 @@ const verticals = [
     title: "VNB Technologies",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop",
-    link: "/services/tech",
+    link: "/services/power",
   },
   {
     title: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop",
-    link: "/services/solar-energy",
+    link: "/services/solar",
   },
   {
     title: "VNB Interactive",
     image:
       "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=1920&h=1080&fit=crop",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
   },
 ];
 

@@ -15,7 +15,7 @@ const verticals = [
       "High-Efficiency Panels",
       "Grid Connection",
     ],
-    link: "/services/solar-energy",
+    link: "/services/solar",
     color: "from-yellow-400 to-orange-500",
   },
   {
@@ -28,7 +28,7 @@ const verticals = [
       "Smart Energy Management",
       "Backup Power Systems",
     ],
-    link: "/services/solar-energy",
+    link: "/services/solar",
     color: "from-blue-400 to-purple-500",
   },
   {
@@ -37,7 +37,7 @@ const verticals = [
     description:
       "Comprehensive maintenance and monitoring services to ensure optimal system performance.",
     features: ["Regular Inspections", "Performance Monitoring", "24/7 Support"],
-    link: "/services/solar-energy",
+    link: "/services/solar",
     color: "from-green-400 to-teal-500",
   },
 ];

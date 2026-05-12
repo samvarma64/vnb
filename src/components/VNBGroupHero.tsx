@@ -7,19 +7,19 @@ import Image from "next/image";
 const verticals = [
   {
     title: "VNB Technologies",
-    link: "/services/tech",
+    link: "/services/power",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&h=1080&fit=crop&auto=format",
   },
   {
     title: "VNB Solar",
-    link: "/services/solar-energy",
+    link: "/services/solar",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format",
   },
   {
     title: "VNB Interactive",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
     image:
       "https://images.unsplash.com/photo-1599508644512-2dfc872d29b1?w=1920&h=1080&fit=crop&auto=format",
   },

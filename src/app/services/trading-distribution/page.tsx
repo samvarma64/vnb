@@ -40,7 +40,7 @@ export default function TradingDistributionPage() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
             >
-              <div className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange/5 rounded-full border border-vnb-orange/10">
+              <div className="inline-flex items-center gap-2 px-5 py-2.5 mb-6 text-xs font-semibold uppercase tracking-widest text-white bg-vnb-orange rounded-full border border-vnb-orange/20">
                 <TrendingUp className="w-4 h-4" />
                 Trading & Distribution
               </div>
@@ -60,13 +60,13 @@ export default function TradingDistributionPage() {
               <div className="flex flex-wrap gap-4">
                 <Link
                   href="/contact"
-                  className="px-8 py-4 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                  className="px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
                 >
                   Get Trading Solutions
                 </Link>
                 <Link
                   href="/portfolio"
-                  className="px-8 py-4 bg-white text-vnb-orange border-2 border-vnb-orange/20 rounded-xl font-semibold hover:bg-vnb-orange/5 transition-all"
+                  className="px-8 py-4 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
                 >
                   View Products
                 </Link>
@@ -108,7 +108,7 @@ export default function TradingDistributionPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange/5 rounded-full border border-vnb-orange/10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange rounded-full border border-vnb-orange">
               Services
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -165,8 +165,8 @@ export default function TradingDistributionPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-orange/20 hover:shadow-xl transition-all"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-2xl flex items-center justify-center mb-6">
-                  <service.icon className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-2xl flex items-center justify-center mb-6 shadow-xl ring-2 ring-vnb-orange/30">
+                  <service.icon className="w-8 h-8 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {service.title}
@@ -200,7 +200,7 @@ export default function TradingDistributionPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange/5 rounded-full border border-vnb-orange/10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange rounded-full border border-vnb-orange">
               Featured Products
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -222,34 +222,29 @@ export default function TradingDistributionPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-blue/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-blue/10 h-full flex flex-col">
-                <div className="relative h-48 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-vnb-blue/10 to-vnb-purple/10 z-10" />
-                  <Image
-                    src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=400&fit=crop&q=80"
-                    alt="Solar Modules"
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                </div>
+              <Link href="/products/solar" className="block h-full">
+                <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-blue/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-blue/10 h-full flex flex-col cursor-pointer">
+                  <div className="relative h-48 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-vnb-blue/10 to-vnb-purple/10 z-10" />
+                    <Image
+                      src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=400&fit=crop&q=80"
+                      alt="Solar Modules"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  </div>
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Solar Modules
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
-                    High-efficiency solar panels with latest technology for
-                    maximum energy generation and durability.
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-xl font-semibold hover:from-vnb-blue/90 hover:to-vnb-purple/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-vnb-blue/20"
-                  >
-                    <span>Get Quote</span>
-                    <Zap className="w-4 h-4" />
-                  </Link>
+                  <div className="p-6 flex-1 flex flex-col">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                      Solar Modules
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed flex-1">
+                      High-efficiency solar panels with latest technology for
+                      maximum energy generation and durability.
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </motion.div>
 
             {/* Solar Inverters */}
@@ -261,34 +256,29 @@ export default function TradingDistributionPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-green/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-green/10 h-full flex flex-col">
-                <div className="relative h-48 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
-                  <Image
-                    src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&h=400&fit=crop&q=80"
-                    alt="Solar Inverters"
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                </div>
+              <Link href="/products/solar" className="block h-full">
+                <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-green/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-green/10 h-full flex flex-col cursor-pointer">
+                  <div className="relative h-48 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
+                    <Image
+                      src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&h=400&fit=crop&q=80"
+                      alt="Solar Inverters"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  </div>
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Solar Inverters
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
-                    Advanced solar inverters for optimal power conversion and
-                    system efficiency with smart monitoring features.
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold hover:from-vnb-green/90 hover:to-vnb-blue/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-vnb-green/20"
-                  >
-                    <span>Get Quote</span>
-                    <Zap className="w-4 h-4" />
-                  </Link>
+                  <div className="p-6 flex-1 flex flex-col">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                      Solar Inverters
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed flex-1">
+                      Advanced solar inverters for optimal power conversion and
+                      system efficiency with smart monitoring features.
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </motion.div>
 
             {/* Electric Cables & Wires */}
@@ -300,34 +290,29 @@ export default function TradingDistributionPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
             >
-              <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-orange/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-orange/10 h-full flex flex-col">
-                <div className="relative h-48 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
-                  <Image
-                    src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&h=400&fit=crop&q=80"
-                    alt="Electric Cables & Wires"
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                </div>
+              <Link href="/products/power" className="block h-full">
+                <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-orange/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-orange/10 h-full flex flex-col cursor-pointer">
+                  <div className="relative h-48 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
+                    <Image
+                      src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&h=400&fit=crop&q=80"
+                      alt="Electric Cables & Wires"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  </div>
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Electric Cables & Wires
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
-                    High-quality electrical cables and wires for safe and
-                    efficient power transmission in solar installations.
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-xl font-semibold hover:from-vnb-orange/90 hover:to-vnb-yellow/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-vnb-orange/20"
-                  >
-                    <span>Get Quote</span>
-                    <Package className="w-4 h-4" />
-                  </Link>
+                  <div className="p-6 flex-1 flex flex-col">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                      Electric Cables & Wires
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed flex-1">
+                      High-quality electrical cables and wires for safe and
+                      efficient power transmission in solar installations.
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </motion.div>
 
             {/* IT Hardware */}
@@ -339,34 +324,29 @@ export default function TradingDistributionPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
             >
-              <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-purple/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-purple/10 h-full flex flex-col">
-                <div className="relative h-48 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
-                  <Image
-                    src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=400&fit=crop&q=80"
-                    alt="IT Hardware"
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                </div>
+              <Link href="/products/it-smart-systems" className="block h-full">
+                <div className="group relative overflow-hidden rounded-3xl bg-white border border-vnb-purple/20 transition-all duration-500 hover:shadow-2xl hover:shadow-vnb-purple/10 h-full flex flex-col cursor-pointer">
+                  <div className="relative h-48 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
+                    <Image
+                      src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=400&fit=crop&q=80"
+                      alt="IT Hardware"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  </div>
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    IT Hardware
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
-                    Comprehensive IT hardware solutions including servers,
-                    networking equipment, and monitoring systems.
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-vnb-purple to-vnb-pink text-white rounded-xl font-semibold hover:from-vnb-purple/90 hover:to-vnb-pink/90 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-vnb-purple/20"
-                  >
-                    <span>Get Quote</span>
-                    <Globe className="w-4 h-4" />
-                  </Link>
+                  <div className="p-6 flex-1 flex flex-col">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                      IT Hardware
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed flex-1">
+                      Comprehensive IT hardware solutions including servers,
+                      networking equipment, and monitoring systems.
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </motion.div>
           </div>
         </div>
@@ -402,7 +382,7 @@ export default function TradingDistributionPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-yellow bg-vnb-yellow/5 rounded-full border border-vnb-yellow/10">
+              <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-white bg-vnb-yellow rounded-full border border-vnb-yellow">
                 Supply Chain
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -431,7 +411,7 @@ export default function TradingDistributionPage() {
               </ul>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-yellow to-vnb-orange text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-green via-vnb-blue to-vnb-purple text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 <span>Optimize Supply Chain</span>
                 <Truck className="w-4 h-4" />
@@ -450,7 +430,7 @@ export default function TradingDistributionPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-purple bg-vnb-purple/5 rounded-full border border-vnb-purple/10">
+              <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-white bg-vnb-purple rounded-full border border-vnb-purple">
                 Distribution
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -518,7 +498,7 @@ export default function TradingDistributionPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange/5 rounded-full border border-vnb-orange/10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-orange bg-vnb-orange rounded-full border border-vnb-orange">
               Markets
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -561,8 +541,8 @@ export default function TradingDistributionPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-orange/20 hover:shadow-xl transition-all text-center"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-2xl flex items-center justify-center mx-auto mb-6">
-                  <item.icon className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 bg-gradient-to-br from-vnb-orange/90 to-vnb-yellow/90 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                  <item.icon className="w-8 h-8 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {item.title}
@@ -583,7 +563,7 @@ export default function TradingDistributionPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-vnb-green bg-vnb-green/5 rounded-full border border-vnb-green/10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 text-xs font-semibold uppercase tracking-widest text-white bg-vnb-green rounded-full border border-vnb-green">
               Quality
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -639,8 +619,8 @@ export default function TradingDistributionPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-3xl p-8 border border-gray-100 hover:border-vnb-green/20 hover:shadow-xl transition-all"
               >
-                <div className="w-14 h-14 bg-gradient-to-br from-vnb-green to-vnb-blue rounded-2xl flex items-center justify-center mb-6">
-                  <item.icon className="w-7 h-7 text-white" />
+                <div className="w-14 h-14 bg-gradient-to-br from-vnb-green/90 to-vnb-blue/90 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <item.icon className="w-7 h-7 text-white drop-shadow-lg" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {item.title}
@@ -707,7 +687,7 @@ export default function TradingDistributionPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-3xl p-12 text-center text-white"
+            className="bg-gradient-to-br from-vnb-orange/95 to-vnb-yellow/95 rounded-3xl p-12 text-center text-white shadow-2xl"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Optimize Your Supply Chain
@@ -720,13 +700,13 @@ export default function TradingDistributionPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-white text-vnb-orange rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
               >
                 Start Trading Partnership
               </Link>
               <a
                 href="tel:+918333018333"
-                className="inline-block px-8 py-4 bg-white/10 text-white border border-white/30 rounded-xl font-semibold hover:bg-white/20 transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
               >
                 Call +91 8333 01 8333
               </a>

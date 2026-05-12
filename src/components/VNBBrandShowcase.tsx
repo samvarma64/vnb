@@ -9,37 +9,37 @@ const brands = [
     name: "VNB Technologies",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/tech",
+    link: "/services/power",
   },
   {
     name: "VNB Solar",
     image:
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/solar-energy",
+    link: "/services/solar",
   },
   {
     name: "VNB Interactive",
     image:
       "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
   },
   {
     name: "Enterprise Solutions",
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/tech",
+    link: "/services/power",
   },
   {
     name: "Smart Energy",
     image:
       "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/solar-energy",
+    link: "/services/solar",
   },
   {
     name: "Digital Learning",
     image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&auto=format&q=80",
-    link: "/services/interactive",
+    link: "/services/it-smart-services",
   },
 ];
 
