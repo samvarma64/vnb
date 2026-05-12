@@ -87,9 +87,7 @@ export default function CCTVSurveillancePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
-                <p className="text-lg font-bold">
-                  24/7 Surveillance Systems
-                </p>
+                <p className="text-lg font-bold">24/7 Surveillance Systems</p>
                 <p className="text-sm text-white/80">
                   Complete security infrastructure solutions
                 </p>
@@ -209,7 +207,9 @@ export default function CCTVSurveillancePage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
                 <p className="text-lg font-bold">Remote Monitoring</p>
-                <p className="text-sm text-white/80">Monitor your premises from anywhere</p>
+                <p className="text-sm text-white/80">
+                  Monitor your premises from anywhere
+                </p>
               </div>
             </motion.div>
 
@@ -308,7 +308,7 @@ export default function CCTVSurveillancePage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1558494949-ef010cbcc31c?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop&q=80"
                 alt="IT Infrastructure"
                 fill
                 className="object-cover"
@@ -316,7 +316,9 @@ export default function CCTVSurveillancePage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
                 <p className="text-lg font-bold">IT Infrastructure</p>
-                <p className="text-sm text-white/80">Server rooms & network management</p>
+                <p className="text-sm text-white/80">
+                  Server rooms & network management
+                </p>
               </div>
             </motion.div>
           </div>
@@ -474,7 +476,9 @@ export default function CCTVSurveillancePage() {
                       key={i}
                       className="flex items-center gap-3 text-gray-700"
                     >
-                      <CheckCircle className={`w-5 h-5 text-${plan.color} flex-shrink-0`} />
+                      <CheckCircle
+                        className={`w-5 h-5 text-${plan.color} flex-shrink-0`}
+                      />
                       <span className="text-sm">{feature}</span>
                     </li>
                   ))}

@@ -80,7 +80,7 @@ export default function PowerPage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop&q=80"
                 alt="Power Substation"
                 fill
                 className="object-cover"
@@ -226,7 +226,7 @@ export default function PowerPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-blue/10 to-vnb-purple/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&h=400&fit=crop&q=80"
                     alt="LT&HT Electrical Works"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -265,7 +265,7 @@ export default function PowerPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=400&fit=crop&q=80"
                     alt="Industrial Electrification"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -305,7 +305,7 @@ export default function PowerPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1558300325-4b3cfa2923c6?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=400&fit=crop&q=80"
                     alt="Cable Laying"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -344,7 +344,7 @@ export default function PowerPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&h=400&fit=crop&q=80"
                     alt="Earthing & Lightning Protection"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -384,7 +384,7 @@ export default function PowerPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1541888941225-cd0c5b65d6cd?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1548613053-22087dd8edb8?w=800&h=600&fit=crop&q=80"
                 alt="Substation Construction"
                 fill
                 className="object-cover"
@@ -493,7 +493,7 @@ export default function PowerPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1558300325-4b3cfa2923c6?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=800&h=600&fit=crop&q=80"
                 alt="Power Transmission Lines"
                 fill
                 className="object-cover"
@@ -670,7 +670,7 @@ export default function PowerPage() {
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1558300325-4b3cfa2923c6?w=1600&h=400&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=1600&h=400&fit=crop&q=80"
             alt="Power Infrastructure Background"
             fill
             className="object-cover"

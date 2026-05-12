@@ -14,7 +14,9 @@ export default function Footer() {
     { name: "IT Services", href: "/services/tech" },
     { name: "Interactive Tech", href: "/services/interactive" },
     { name: "Careers", href: "/careers" },
+    { name: "Testimonials", href: "/testimonials" },
     { name: "Blog", href: "/blog" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const supportLinks = [

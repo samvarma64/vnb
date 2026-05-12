@@ -80,7 +80,7 @@ export default function TradingDistributionPage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1565870988064-11a6cf2d0d5b?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80"
                 alt="Trading Distribution"
                 fill
                 className="object-cover"
@@ -304,7 +304,7 @@ export default function TradingDistributionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&h=400&fit=crop&q=80"
                     alt="Electric Cables & Wires"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -343,7 +343,7 @@ export default function TradingDistributionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1558300325-4b3cfa2923c6?w=800&h=400&fit=crop&q=80"
+                    src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=400&fit=crop&q=80"
                     alt="IT Hardware"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -383,7 +383,7 @@ export default function TradingDistributionPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80"
                 alt="Supply Chain Management"
                 fill
                 className="object-cover"
@@ -492,7 +492,7 @@ export default function TradingDistributionPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1586528118315-3a29379b9d02?w=800&h=600&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80"
                 alt="Distribution Warehouse"
                 fill
                 className="object-cover"
@@ -669,7 +669,7 @@ export default function TradingDistributionPage() {
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1565870988064-11a6cf2d0d5b?w=1600&h=400&fit=crop&q=80"
+            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&h=400&fit=crop&q=80"
             alt="Trading Background"
             fill
             className="object-cover"

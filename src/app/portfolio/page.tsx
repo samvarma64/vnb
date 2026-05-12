@@ -247,7 +247,7 @@ export default function PortfolioPage() {
                       ))}
                     </div>
 
-                    <div className="mt-auto">
+                    {/* <div className="mt-auto">
                       <Link
                         href={`/portfolio/${project.id}`}
                         className="inline-flex items-center gap-2 text-vnb-blue font-medium group-hover:gap-3 transition-all hover:text-vnb-blue/80"
@@ -255,7 +255,7 @@ export default function PortfolioPage() {
                         <span>View Case Study</span>
                         <ExternalLink className="w-4 h-4" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </motion.article>
               ))}

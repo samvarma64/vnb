@@ -7,7 +7,12 @@ import { X, ChevronDown } from "lucide-react";
 import VNBLogo from "./VNBLogo";
 
 export default function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(() => {
+    if (typeof window !== "undefined") {
+      return window.scrollY > 50;
+    }
+    return false;
+  });
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -15,6 +20,7 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -49,9 +55,6 @@ export default function Navbar() {
     },
     { name: "About", href: "/about" },
     { name: "Portfolio", href: "/portfolio" },
-    { name: "Testimonials", href: "/testimonials" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -140,10 +143,10 @@ export default function Navbar() {
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="#contact"
+                href="/pm-suryaghar-scheme"
                 className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg font-medium shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-600/50 focus:ring-offset-2"
               >
-                Get Started
+                PM Suryaghar Scheme
               </Link>
             </motion.div>
           </motion.div>
@@ -257,11 +260,11 @@ export default function Navbar() {
 
                 <div className="mt-auto">
                   <Link
-                    href="#contact"
+                    href="/pm-suryaghar-scheme"
                     className="block w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg font-medium text-center shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600/50 focus:ring-offset-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Get Started
+                    PM Suryaghar Scheme
                   </Link>
                 </div>
               </div>
