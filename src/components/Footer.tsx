@@ -13,7 +13,6 @@ export default function Footer() {
     { name: "Solar Solutions", href: "/services/solar" },
     { name: "IT Services", href: "/services/power" },
     { name: "Interactive Tech", href: "/services/it-smart-services" },
-    { name: "Careers", href: "/careers" },
     { name: "Testimonials", href: "/testimonials" },
     { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
