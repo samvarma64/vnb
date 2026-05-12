@@ -62,7 +62,7 @@ export default function SmartClassroomPage() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="px-8 py-4 bg-white text-vnb-purple border-2 border-vnb-purple/20 rounded-xl font-semibold hover:bg-vnb-purple/5 transition-all"
+                  className="px-8 py-4 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
                 >
                   Download Brochure
                 </Link>
@@ -482,13 +482,13 @@ export default function SmartClassroomPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-white text-vnb-purple rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Schedule a Demo
               </Link>
               <a
                 href="tel:+918333018333"
-                className="inline-block px-8 py-4 bg-white/10 text-white border border-white/30 rounded-xl font-semibold hover:bg-white/20 transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-green text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Call +91 8333 01 8333
               </a>

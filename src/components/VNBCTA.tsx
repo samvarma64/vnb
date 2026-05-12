@@ -26,14 +26,14 @@ export default function VNBCTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-900 font-medium rounded-lg hover:bg-blue-50 transition-colors text-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white font-medium rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all text-lg"
             >
               <span>Get Started Today</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
               href="tel:+918333018333"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-transparent border-2 border-white text-white font-medium rounded-lg hover:bg-white hover:text-blue-900 transition-all text-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white font-medium rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all text-lg"
             >
               <Phone className="w-5 h-5" />
               <span>Call Us</span>

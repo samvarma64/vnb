@@ -92,7 +92,7 @@ export default function TechServicesPage() {
               </Link>
               <Link
                 href="/portfolio"
-                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-blue transition-all "
+                className="px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Read Case Studies
               </Link>
@@ -206,7 +206,7 @@ export default function TechServicesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-block px-8 py-4 bg-white text-vnb-blue rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all "
+              className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
             >
               Schedule Consultation
             </Link>

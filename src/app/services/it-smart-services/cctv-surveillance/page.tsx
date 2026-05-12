@@ -66,7 +66,7 @@ export default function CCTVSurveillancePage() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="px-8 py-4 bg-white text-vnb-orange border-2 border-vnb-orange/20 rounded-xl font-semibold hover:bg-vnb-orange/5 transition-all"
+                  className="px-8 py-4 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
                 >
                   Schedule Site Survey
                 </Link>
@@ -485,11 +485,7 @@ export default function CCTVSurveillancePage() {
                 </ul>
                 <Link
                   href="/contact"
-                  className={`inline-flex items-center justify-center w-full gap-2 px-6 py-3 ${
-                    index === 1
-                      ? "bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white"
-                      : "bg-gray-100 text-gray-900 hover:bg-gray-200"
-                  } rounded-xl font-semibold transition-all duration-300`}
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
                 >
                   <span>Get AMC Quote</span>
                   <Clock className="w-4 h-4" />
@@ -507,7 +503,7 @@ export default function CCTVSurveillancePage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-vnb-orange to-vnb-yellow rounded-3xl p-12 text-center text-white"
+            className="bg-gradient-to-br from-vnb-green via-vnb-blue to-vnb-purple rounded-3xl p-12 text-center text-white shadow-2xl"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Secure Your Premises Today
@@ -519,13 +515,13 @@ export default function CCTVSurveillancePage() {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-block px-8 py-4 bg-white text-vnb-orange rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white  text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Request Free Site Survey
               </Link>
               <a
                 href="tel:+918333018333"
-                className="inline-block px-8 py-4 bg-white/10 text-white border border-white/30 rounded-xl font-semibold hover:bg-white/20 transition-all"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-green text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Call +91 8333 01 8333
               </a>

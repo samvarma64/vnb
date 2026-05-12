@@ -29,7 +29,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     {
       name: "Services",
-      href: "/services",
+      href: "/",
       dropdown: [
         { name: "Solar", href: "/services/solar" },
         { name: "Power", href: "/services/power" },
@@ -46,7 +46,7 @@ export default function Navbar() {
     },
     {
       name: "Products",
-      href: "/products",
+      href: "/",
       dropdown: [
         { name: "Solar", href: "/products/solar" },
         { name: "Power", href: "/products/power" },
@@ -144,7 +144,7 @@ export default function Navbar() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 href="/pm-suryaghar-scheme"
-                className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg font-medium shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-600/50 focus:ring-offset-2"
+                className="px-6 py-2.5 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-vnb-green/50 focus:ring-offset-2"
               >
                 PM Suryaghar Scheme
               </Link>
@@ -261,7 +261,7 @@ export default function Navbar() {
                 <div className="mt-auto">
                   <Link
                     href="/pm-suryaghar-scheme"
-                    className="block w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg font-medium text-center shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600/50 focus:ring-offset-2"
+                    className="block w-full px-6 py-3 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-medium text-center shadow-lg hover:shadow-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-vnb-green/50 focus:ring-offset-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     PM Suryaghar Scheme

@@ -28,7 +28,7 @@ export default function PowerPage() {
 
         <div className="container mx-auto px-6 relative z-10">
           <Link
-            href="/services"
+            href="/"
             className="inline-flex items-center gap-2 text-gray-600 hover:text-vnb-blue transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />

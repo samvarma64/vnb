@@ -467,13 +467,13 @@ export default function PMSuryagharSchemePage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <button
                   onClick={openModal}
-                  className="inline-block px-8 py-4 bg-white text-vnb-orange rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all"
+                  className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
                 >
                   Apply for PM Suryaghar
                 </button>
                 <a
                   href="tel:+918333018333"
-                  className="inline-block px-8 py-4 bg-white/10 text-white border border-white/30 rounded-xl font-semibold hover:bg-white/20 transition-all"
+                  className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-green text-white rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
                 >
                   Call +91 8333 01 8333
                 </a>

@@ -37,14 +37,14 @@ export default function vnbindiaCTA() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="#verticals"
-                className="group inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-xl"
+                className="group inline-flex items-center gap-3 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 <span>Explore Our Services</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
                 href="mailto:info@vnbindia.com"
-                className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-vnb-purple to-pink text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 <Mail className="w-5 h-5" />
                 <span>Contact Us</span>

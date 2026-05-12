@@ -85,7 +85,7 @@ export default function CTA() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 href="#contact"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-vnb-blue rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-lg font-semibold shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 Get Started Today
                 <ArrowRight className="w-5 h-5" />
@@ -95,7 +95,7 @@ export default function CTA() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 href="#portfolio"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-semibold border-2 border-white/30 hover:bg-white/20 transition-all duration-300"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-lg font-semibold shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 View Our Work
               </Link>

@@ -44,7 +44,7 @@ export default function SolarHero() {
               <button className="px-8 py-4 bg-vnb-green text-black font-bold rounded-full hover:bg-vnb-green/90 transition-all hover:scale-105 shadow-lg shadow-vnb-green/20">
                 Explore Solutions
               </button>
-              <button className="px-8 py-4 bg-white/10 text-white font-bold rounded-full border border-white/20 backdrop-blur-md hover:bg-white/20 transition-all">
+              <button className="px-8 py-4 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all">
                 Our Impact
               </button>
             </div>

@@ -29,7 +29,8 @@ const features = [
   {
     icon: Monitor,
     title: "4K IPS Nano Display",
-    description: "Ultra-thin bezels and 4K resolution for a breathtaking visual experience.",
+    description:
+      "Ultra-thin bezels and 4K resolution for a breathtaking visual experience.",
     details: [
       "99% sRGB color gamut",
       "400 nits brightness",
@@ -40,7 +41,8 @@ const features = [
   {
     icon: Cpu,
     title: "Extreme Performance",
-    description: "Equipped with the latest Intel Core processors for effortless multitasking.",
+    description:
+      "Equipped with the latest Intel Core processors for effortless multitasking.",
     details: [
       "Intel Core i7/i9 options",
       "Up to 64GB DDR5 RAM",
@@ -51,7 +53,8 @@ const features = [
   {
     icon: Sparkles,
     title: "Aluminum Unibody",
-    description: "Crafted from premium aerospace-grade aluminum for strength and style.",
+    description:
+      "Crafted from premium aerospace-grade aluminum for strength and style.",
     details: [
       "Minimalist footprint",
       "Adjustable ergonomic stand",
@@ -62,7 +65,8 @@ const features = [
   {
     icon: Wifi,
     title: "Next-Gen Connectivity",
-    description: "Lightning-fast wireless and wired connections for modern workflows.",
+    description:
+      "Lightning-fast wireless and wired connections for modern workflows.",
     details: [
       "WiFi 6E support",
       "Bluetooth 5.3",
@@ -73,7 +77,8 @@ const features = [
   {
     icon: Volume2,
     title: "Immersive Audio",
-    description: "Integrated high-fidelity speakers with spatial audio support.",
+    description:
+      "Integrated high-fidelity speakers with spatial audio support.",
     details: [
       "Harman Kardon tuned",
       "Dolby Atmos support",
@@ -84,7 +89,8 @@ const features = [
   {
     icon: ShieldCheck,
     title: "Pro Security",
-    description: "Enhanced biometric and software security to protect your data.",
+    description:
+      "Enhanced biometric and software security to protect your data.",
     details: [
       "Windows Hello camera",
       "TPM 2.0 security chip",
@@ -98,7 +104,7 @@ const specifications = [
   {
     category: "Display",
     items: [
-      "Screen: 24\" / 27\" / 32\"",
+      'Screen: 24" / 27" / 32"',
       "Resolution: 3840 x 2160",
       "Panel: Anti-Glare IPS",
       "Refresh Rate: 75Hz",
@@ -165,9 +171,9 @@ export default function VNBAIO() {
               <span className="block text-purple-400">Always Sleek.</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-              VNB All-in-One PCs redefine the desktop experience. 
-              Uncompromising performance meets minimalist design, 
-              giving you the ultimate tool for productivity and creativity.
+              VNB All-in-One PCs redefine the desktop experience. Uncompromising
+              performance meets minimalist design, giving you the ultimate tool
+              for productivity and creativity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -207,9 +213,12 @@ export default function VNBAIO() {
                     <MousePointer2 className="w-7 h-7 text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Seamless Interaction</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Seamless Interaction
+                    </h3>
                     <p className="text-gray-600">
-                      Zero-lag responsiveness with high-refresh rate displays and NVMe storage.
+                      Zero-lag responsiveness with high-refresh rate displays
+                      and NVMe storage.
                     </p>
                   </div>
                 </div>
@@ -218,9 +227,12 @@ export default function VNBAIO() {
                     <Layout className="w-7 h-7 text-pink-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Workspace Optimization</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Workspace Optimization
+                    </h3>
                     <p className="text-gray-600">
-                      Declutter your desk with a single-cable setup and integrated PC components.
+                      Declutter your desk with a single-cable setup and
+                      integrated PC components.
                     </p>
                   </div>
                 </div>
@@ -229,9 +241,12 @@ export default function VNBAIO() {
                     <HardDrive className="w-7 h-7 text-indigo-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Enterprise Reliability</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Enterprise Reliability
+                    </h3>
                     <p className="text-gray-600">
-                      Built for continuous operation with advanced cooling and high-grade capacitors.
+                      Built for continuous operation with advanced cooling and
+                      high-grade capacitors.
                     </p>
                   </div>
                 </div>
@@ -269,14 +284,20 @@ export default function VNBAIO() {
                   Aerospace-Grade Craftsmanship
                 </h3>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  The VNB AIO is not just a computer; it's a piece of art. 
-                  Every curve and angle is precision-milled from aluminum, 
-                  offering a rigid, premium feel that lasts a lifetime.
+                  The VNB AIO is not just a computer; it's a piece of art. Every
+                  curve and angle is precision-milled from aluminum, offering a
+                  rigid, premium feel that lasts a lifetime.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">6061 Aluminum</div>
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">CNC Milled</div>
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">Anodized Finish</div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    6061 Aluminum
+                  </div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    CNC Milled
+                  </div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    Anodized Finish
+                  </div>
                 </div>
               </motion.div>
               <motion.div
@@ -338,7 +359,9 @@ export default function VNBAIO() {
                   {feature.details.map((detail, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700 text-sm font-medium">{detail}</span>
+                      <span className="text-gray-700 text-sm font-medium">
+                        {detail}
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -358,7 +381,9 @@ export default function VNBAIO() {
             viewport={{ once: true }}
             className="text-center mb-20"
           >
-            <h2 className="text-4xl font-bold mb-4">Unmatched Specifications</h2>
+            <h2 className="text-4xl font-bold mb-4">
+              Unmatched Specifications
+            </h2>
             <p className="text-xl text-gray-400">
               The hardware that powers your ambition
             </p>
@@ -400,10 +425,12 @@ export default function VNBAIO() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Technical Resources</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Technical Resources
+            </h2>
             <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
-              Download the full technical brochure for detailed performance metrics, 
-              port layouts, and configuration options.
+              Download the full technical brochure for detailed performance
+              metrics, port layouts, and configuration options.
             </p>
             <Link
               href="/VNB-AIO.pdf"
@@ -431,7 +458,7 @@ export default function VNBAIO() {
               Upgrade to the Future of Desktop
             </h2>
             <p className="text-xl mb-12 text-purple-100 leading-relaxed">
-              Experience the VNB All-in-One. Contact our solutions team for 
+              Experience the VNB All-in-One. Contact our solutions team for
               enterprise pricing and custom configurations.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -443,7 +470,7 @@ export default function VNBAIO() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
-                href="/products"
+                href="/"
                 className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-transparent border-2 border-white/30 text-white rounded-xl font-bold hover:bg-white/10 transition-all duration-300"
               >
                 View All Products

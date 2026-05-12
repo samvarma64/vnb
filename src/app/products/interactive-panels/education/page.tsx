@@ -5,52 +5,68 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, GraduationCap, Users, BookOpen, Target, Award, CheckCircle } from "lucide-react";
+import {
+  ArrowRight,
+  GraduationCap,
+  Users,
+  BookOpen,
+  Target,
+  Award,
+  CheckCircle,
+} from "lucide-react";
 
 const features = [
   {
     icon: BookOpen,
     title: "Interactive Learning",
-    description: "Engage students with touch-based interactive content and real-time collaboration"
+    description:
+      "Engage students with touch-based interactive content and real-time collaboration",
   },
   {
     icon: Users,
     title: "Collaborative Tools",
-    description: "Enable group work and shared learning experiences with multi-touch capabilities"
+    description:
+      "Enable group work and shared learning experiences with multi-touch capabilities",
   },
   {
     icon: Target,
     title: "Smart Assessment",
-    description: "Integrated assessment tools for immediate feedback and progress tracking"
+    description:
+      "Integrated assessment tools for immediate feedback and progress tracking",
   },
   {
     icon: Award,
     title: "Gamification",
-    description: "Make learning fun with interactive games and educational activities"
-  }
+    description:
+      "Make learning fun with interactive games and educational activities",
+  },
 ];
 
 const benefits = [
   {
     title: "Enhanced Engagement",
-    description: "Interactive learning tools that boost student participation and understanding",
-    icon: Users
+    description:
+      "Interactive learning tools that boost student participation and understanding",
+    icon: Users,
   },
   {
     title: "Personalized Learning",
-    description: "Adaptive content delivery that meets individual student needs and learning styles",
-    icon: Target
+    description:
+      "Adaptive content delivery that meets individual student needs and learning styles",
+    icon: Target,
   },
   {
     title: "Collaborative Learning",
-    description: "Group activities and shared screens that foster teamwork and peer learning",
-    icon: BookOpen
+    description:
+      "Group activities and shared screens that foster teamwork and peer learning",
+    icon: BookOpen,
   },
   {
     title: "Safe & Secure",
-    description: "Robust security features to protect sensitive educational content and student data",
-    icon: Award
-  }
+    description:
+      "Robust security features to protect sensitive educational content and student data",
+    icon: Award,
+  },
 ];
 
 const specifications = [
@@ -60,8 +76,8 @@ const specifications = [
       "Screen Size: 65/75/86 Inches",
       "Touch Capability: Multi-touch (up to 20 points)",
       "Resolution: 4K Ultra HD",
-      "Anti-glare coating for classroom use"
-    ]
+      "Anti-glare coating for classroom use",
+    ],
   },
   {
     category: "Software",
@@ -69,8 +85,8 @@ const specifications = [
       "Interactive whiteboard software",
       "Lesson planning tools",
       "Student response system",
-      "Cloud storage integration"
-    ]
+      "Cloud storage integration",
+    ],
   },
   {
     category: "Hardware",
@@ -78,8 +94,8 @@ const specifications = [
       "Built-in speakers and microphone",
       "Multiple connectivity options",
       "Wall-mountable design",
-      "Optional mobile stand"
-    ]
+      "Optional mobile stand",
+    ],
   },
   {
     category: "Support",
@@ -87,9 +103,9 @@ const specifications = [
       "Teacher training programs",
       "Technical support",
       "Software updates",
-      "Warranty coverage"
-    ]
-  }
+      "Warranty coverage",
+    ],
+  },
 ];
 
 export default function InteractivePanelsEducation() {
@@ -114,23 +130,27 @@ export default function InteractivePanelsEducation() {
                 <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
                   Education
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-                    {" "}Solutions
+                    {" "}
+                    Solutions
                   </span>
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Transform your classroom with interactive panels designed specifically for modern educational environments. Engage students, enhance collaboration, and make learning more effective and enjoyable.
+                  Transform your classroom with interactive panels designed
+                  specifically for modern educational environments. Engage
+                  students, enhance collaboration, and make learning more
+                  effective and enjoyable.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/contact"
-                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 hover:shadow-xl transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                   >
                     Get Quote
                     <ArrowRight className="w-5 h-5" />
                   </Link>
                   <Link
                     href="#features"
-                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                   >
                     Explore Features
                   </Link>
@@ -185,9 +205,7 @@ export default function InteractivePanelsEducation() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600">
-                  {feature.description}
-                </p>
+                <p className="text-gray-600">{feature.description}</p>
               </motion.div>
             ))}
           </div>
@@ -225,9 +243,7 @@ export default function InteractivePanelsEducation() {
                       <h3 className="text-xl font-bold text-gray-900 mb-2">
                         {benefit.title}
                       </h3>
-                      <p className="text-gray-600">
-                        {benefit.description}
-                      </p>
+                      <p className="text-gray-600">{benefit.description}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -296,11 +312,12 @@ export default function InteractivePanelsEducation() {
               Transform Your Classroom Today
             </h2>
             <p className="text-xl mb-8 text-blue-100">
-              Get in touch with us to learn how our interactive panels can enhance your educational experience
+              Get in touch with us to learn how our interactive panels can
+              enhance your educational experience
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-blue-600 rounded-lg font-medium hover:shadow-xl transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Contact Sales
               <ArrowRight className="w-5 h-5" />

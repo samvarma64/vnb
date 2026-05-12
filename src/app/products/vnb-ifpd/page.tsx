@@ -27,7 +27,8 @@ const features = [
   {
     icon: Monitor,
     title: "4K Ultra HD Display",
-    description: "Stunning 65/75/86 inch screen sizes with crystal-clear 4K resolution.",
+    description:
+      "Stunning 65/75/86 inch screen sizes with crystal-clear 4K resolution.",
     details: [
       "High-brightness panels",
       "Anti-glare technology",
@@ -38,7 +39,8 @@ const features = [
   {
     icon: TouchpadIcon,
     title: "20-Point Multi-Touch",
-    description: "Ultra-responsive touch technology for seamless interaction and writing.",
+    description:
+      "Ultra-responsive touch technology for seamless interaction and writing.",
     details: [
       "Low latency writing",
       "Palm rejection",
@@ -49,7 +51,8 @@ const features = [
   {
     icon: Cpu,
     title: "Powerful Performance",
-    description: "Integrated high-performance CPU and GPU for smooth multitasking.",
+    description:
+      "Integrated high-performance CPU and GPU for smooth multitasking.",
     details: [
       "Quad-core Processor",
       "8GB DDR4 RAM",
@@ -60,7 +63,8 @@ const features = [
   {
     icon: Wifi,
     title: "Smart Connectivity",
-    description: "Seamless wireless screen sharing and multi-device integration.",
+    description:
+      "Seamless wireless screen sharing and multi-device integration.",
     details: [
       "Dual-band WiFi 6",
       "Bluetooth 5.0",
@@ -71,7 +75,8 @@ const features = [
   {
     icon: Volume2,
     title: "Cinematic Audio",
-    description: "Integrated high-fidelity stereo speakers for immersive sound.",
+    description:
+      "Integrated high-fidelity stereo speakers for immersive sound.",
     details: [
       "Built-in 2x20W speakers",
       "Noise reduction",
@@ -82,7 +87,8 @@ const features = [
   {
     icon: ShieldCheck,
     title: "Enterprise Security",
-    description: "Robust protection for your sensitive data and educational content.",
+    description:
+      "Robust protection for your sensitive data and educational content.",
     details: [
       "User authentication",
       "Secure boot",
@@ -96,7 +102,7 @@ const specifications = [
   {
     category: "Display",
     items: [
-      "Screen Size: 65\", 75\", 86\"",
+      'Screen Size: 65", 75", 86"',
       "Resolution: 3840 x 2160 (4K)",
       "Brightness: 450 cd/m²",
       "Contrast Ratio: 5000:1",
@@ -163,9 +169,10 @@ export default function VNBIFPD() {
               <span className="block text-blue-400">Always Interactive.</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-              VNB Interactive Flat Panel Displays are engineered to revolutionize 
-              collaboration. Whether in a classroom or a boardroom, our cutting-edge 
-              touch technology and 4K visuals empower you to inspire and innovate.
+              VNB Interactive Flat Panel Displays are engineered to
+              revolutionize collaboration. Whether in a classroom or a
+              boardroom, our cutting-edge touch technology and 4K visuals
+              empower you to inspire and innovate.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -177,7 +184,7 @@ export default function VNBIFPD() {
               </Link>
               <Link
                 href="#features"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 Explore Features
               </Link>
@@ -205,9 +212,12 @@ export default function VNBIFPD() {
                     <Presentation className="w-7 h-7 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Education Focused</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Education Focused
+                    </h3>
                     <p className="text-gray-600">
-                      Gamify learning and boost student engagement with interactive tools.
+                      Gamify learning and boost student engagement with
+                      interactive tools.
                     </p>
                   </div>
                 </div>
@@ -216,9 +226,12 @@ export default function VNBIFPD() {
                     <Layout className="w-7 h-7 text-indigo-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Corporate Ready</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Corporate Ready
+                    </h3>
                     <p className="text-gray-600">
-                      Seamless video conferencing and collaborative whiteboarding for teams.
+                      Seamless video conferencing and collaborative
+                      whiteboarding for teams.
                     </p>
                   </div>
                 </div>
@@ -227,9 +240,12 @@ export default function VNBIFPD() {
                     <Layers className="w-7 h-7 text-green-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Hybrid Workspace</h3>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      Hybrid Workspace
+                    </h3>
                     <p className="text-gray-600">
-                      Bridge the gap between remote and in-person participants effortlessly.
+                      Bridge the gap between remote and in-person participants
+                      effortlessly.
                     </p>
                   </div>
                 </div>
@@ -267,14 +283,20 @@ export default function VNBIFPD() {
                   Built for Durability
                 </h3>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Our IFPDs are built to withstand the rigors of daily use in busy
-                  classrooms and meeting rooms. With a robust metal frame and
-                  7H hardness toughened glass, it's as tough as it is smart.
+                  Our IFPDs are built to withstand the rigors of daily use in
+                  busy classrooms and meeting rooms. With a robust metal frame
+                  and 7H hardness toughened glass, it's as tough as it is smart.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">7H Hardness</div>
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">Metal Housing</div>
-                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">50,000h Life</div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    7H Hardness
+                  </div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    Metal Housing
+                  </div>
+                  <div className="px-4 py-2 bg-gray-100 rounded-full text-sm font-medium text-gray-700">
+                    50,000h Life
+                  </div>
                 </div>
               </motion.div>
               <motion.div
@@ -336,7 +358,9 @@ export default function VNBIFPD() {
                   {feature.details.map((detail, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700 text-sm font-medium">{detail}</span>
+                      <span className="text-gray-700 text-sm font-medium">
+                        {detail}
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -403,20 +427,21 @@ export default function VNBIFPD() {
               Transform Your Space with VNB IFPD
             </h2>
             <p className="text-xl mb-12 text-blue-100 leading-relaxed">
-              Experience the future of interactive technology today. Contact our 
-              experts for a tailored solution that fits your organization&apos;s needs.
+              Experience the future of interactive technology today. Contact our
+              experts for a tailored solution that fits your organization&apos;s
+              needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-white text-blue-700 rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 Contact Sales
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
-                href="/products"
-                className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-transparent border-2 border-white/30 text-white rounded-xl font-bold hover:bg-white/10 transition-all duration-300"
+                href="/"
+                className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 View All Products
               </Link>

@@ -232,7 +232,7 @@ export default function ServicesPage() {
                   your entire organization.
                 </p>
               </div>
-              <button className="px-8 py-4 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all font-bold">
+              <button className="px-8 py-4 bg-gradient-to-r from-vnb-blue to-vnb-purple text-white rounded-2xl font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all">
                 View Full Catalog
               </button>
             </div>
@@ -299,7 +299,7 @@ export default function ServicesPage() {
                   </Link>
                   <Link
                     href="/portfolio"
-                    className="px-10 py-5 bg-white/5 text-white font-bold rounded-full border border-white/10 hover:bg-white/10 transition-all"
+                    className="px-10 py-5 bg-gradient-to-r from-vnb-purple to-pink text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all"
                   >
                     View Our Work
                   </Link>

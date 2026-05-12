@@ -34,13 +34,13 @@ export default function VNBMinimalCTA() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
               href="/contact"
-              className="px-12 py-5 bg-white text-gray-900 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105"
+              className="px-12 py-5 bg-gradient-to-r from-vnb-orange to-vnb-yellow text-white rounded-full text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Get in Touch
             </Link>
             <Link
               href="/about"
-              className="px-12 py-5 border-2 border-white text-white rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300"
+              className="px-12 py-5 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-full text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Learn More
             </Link>

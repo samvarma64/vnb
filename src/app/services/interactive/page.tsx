@@ -87,7 +87,7 @@ export default function InteractiveServicesPage() {
               </Link>
               <Link
                 href="/portfolio"
-                className="px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 rounded-lg font-semibold hover:border-vnb-purple transition-all "
+                className="px-8 py-4 bg-gradient-to-r from-vnb-purple to-pink text-white rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               >
                 Success Stories
               </Link>

@@ -111,7 +111,7 @@ export default function VNBMinimalHero() {
         >
           <Link
             href="#verticals"
-            className="inline-block px-8 py-4 bg-white text-gray-900 font-medium rounded-lg hover:bg-gray-100 transition-colors text-lg"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white font-medium rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg"
           >
             Explore Our Companies
           </Link>

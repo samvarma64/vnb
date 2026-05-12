@@ -5,58 +5,69 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Monitor, Users, GraduationCap, Building2, Pointer } from "lucide-react";
+import {
+  ArrowRight,
+  Monitor,
+  Users,
+  GraduationCap,
+  Building2,
+  Pointer,
+} from "lucide-react";
 
 const solutions = [
   {
     title: "Education Solutions",
-    description: "Interactive panels designed specifically for modern educational environments",
+    description:
+      "Interactive panels designed specifically for modern educational environments",
     icon: GraduationCap,
     href: "/products/interactive-panels/education",
     features: [
       "Enhanced student engagement",
       "Interactive learning tools",
       "Collaborative classroom activities",
-      "Teacher-friendly interface"
+      "Teacher-friendly interface",
     ],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&auto=format&q=80"
+    image:
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&auto=format&q=80",
   },
   {
     title: "Corporate Solutions",
-    description: "Professional interactive displays for business presentations and meetings",
+    description:
+      "Professional interactive displays for business presentations and meetings",
     icon: Building2,
     href: "/products/interactive-panels/corporate",
     features: [
       "Efficient meeting management",
       "Remote collaboration tools",
       "Professional presentation capabilities",
-      "Seamless integration"
+      "Seamless integration",
     ],
-    image: "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&fit=crop&auto=format&q=80"
-  }
+    image:
+      "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&fit=crop&auto=format&q=80",
+  },
 ];
 
 const benefits = [
   {
     title: "Enhanced Engagement",
     description: "Increase participation and interaction in any environment",
-    icon: Users
+    icon: Users,
   },
   {
     title: "Intuitive Interface",
     description: "Easy-to-use controls that require minimal training",
-    icon: Pointer
+    icon: Pointer,
   },
   {
     title: "Versatile Applications",
     description: "Perfect for education, business, and presentation needs",
-    icon: Monitor
+    icon: Monitor,
   },
   {
     title: "Professional Quality",
     description: "High-resolution displays with reliable performance",
-    icon: Monitor
-  }
+    icon: Monitor,
+  },
 ];
 
 export default function InteractivePanels() {
@@ -79,11 +90,14 @@ export default function InteractivePanels() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Interactive Panels
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600">
-                {" "}Solutions
+                {" "}
+                Solutions
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your presentations and learning experiences with our cutting-edge interactive panel solutions. Designed for education and corporate environments.
+              Transform your presentations and learning experiences with our
+              cutting-edge interactive panel solutions. Designed for education
+              and corporate environments.
             </p>
             <div className="relative overflow-hidden rounded-xl shadow-2xl mb-12">
               <Image
@@ -140,14 +154,19 @@ export default function InteractivePanels() {
                       <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-2">
                         <solution.icon className="w-6 h-6 text-green-600" />
                       </div>
-                      <h3 className="text-2xl font-bold text-white">{solution.title}</h3>
+                      <h3 className="text-2xl font-bold text-white">
+                        {solution.title}
+                      </h3>
                     </div>
                   </div>
                   <div className="p-8">
                     <p className="text-gray-600 mb-6">{solution.description}</p>
                     <ul className="space-y-3 mb-8">
                       {solution.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-center gap-3">
+                        <li
+                          key={featureIndex}
+                          className="flex items-center gap-3"
+                        >
                           <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                           <span className="text-gray-700">{feature}</span>
                         </li>
@@ -199,9 +218,7 @@ export default function InteractivePanels() {
                       <h3 className="text-xl font-bold text-gray-900 mb-2">
                         {benefit.title}
                       </h3>
-                      <p className="text-gray-600">
-                        {benefit.description}
-                      </p>
+                      <p className="text-gray-600">{benefit.description}</p>
                     </div>
                   </div>
                 </motion.div>
@@ -225,11 +242,12 @@ export default function InteractivePanels() {
               Ready to Transform Your Presentations?
             </h2>
             <p className="text-xl mb-8 text-green-100">
-              Get in touch with us to find the perfect interactive panel solution for your needs
+              Get in touch with us to find the perfect interactive panel
+              solution for your needs
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-green-600 rounded-lg font-medium hover:shadow-xl transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-vnb-green to-vnb-blue text-white rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Contact Sales
               <ArrowRight className="w-5 h-5" />
