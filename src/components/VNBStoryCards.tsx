@@ -10,14 +10,14 @@ const stories = [
     title: "Sustainable Energy Solutions",
     subtitle: "VNB Solar",
     image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&auto=format&q=80",
+      "/banners/home/sustainable-energy-solutions.jpg",
     link: "/services/solar",
   },
   {
     title: "Powering Digital Transformation",
     subtitle: "VNB Power",
     image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop&auto=format&q=80",
+      "/banners/home/powering-digital-transformation.jpg",
     link: "/services/power",
   },
 
@@ -25,7 +25,7 @@ const stories = [
     title: "Interactive Learning Systems",
     subtitle: "VNB Interactive",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop&auto=format&q=80",
+      "/banners/home/interactive-learning-system.jpg",
     link: "/services/it-smart-services",
   },
 ];

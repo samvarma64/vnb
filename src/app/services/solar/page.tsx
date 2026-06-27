@@ -98,7 +98,7 @@ export default function SolarServicesPage() {
                   <div className="relative h-56 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
                     <Image
-                      src="/images/solar/hero.png"
+                      src="/banners/solar-services/solar-epc.jpg"
                       alt="Solar EPC"
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -135,7 +135,7 @@ export default function SolarServicesPage() {
                   <div className="relative h-56 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
                     <Image
-                      src="/images/solar/green-energy.png"
+                      src="/banners/solar-services/solar-pump-and-street-lighting.jpg"
                       alt="Solar Pump & Street Lighting"
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -172,7 +172,7 @@ export default function SolarServicesPage() {
                   <div className="relative h-56 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
                     <Image
-                      src="/images/solar/tech.png"
+                      src="/banners/solar-services/resco-ppa-projects.jpg"
                       alt="Resco/PPA Projects"
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -212,7 +212,7 @@ export default function SolarServicesPage() {
             className="relative h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=600&fit=crop&q=80"
+              src="/banners/solar-services/500mw-installed-capacity.jpg"
               alt="Solar Energy Solutions"
               width={1200}
               height={600}

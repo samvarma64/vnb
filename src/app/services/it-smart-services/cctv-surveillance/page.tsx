@@ -80,7 +80,7 @@ export default function CCTVSurveillancePage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&h=600&fit=crop&q=80"
+                src="/banners/it-smart-services/cctv-surveillance.jpg"
                 alt="CCTV Surveillance"
                 fill
                 className="object-cover"
@@ -199,7 +199,7 @@ export default function CCTVSurveillancePage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop&q=80"
+                src="/banners/it-smart-services/cctv-surveillance.jpg"
                 alt="Remote Monitoring"
                 fill
                 className="object-cover"

@@ -10,7 +10,7 @@ export default function VNBMinimalCTA() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&auto=format&q=80"
+          src="/banners/home/lets-buil-togather.jpg"
           alt="Contact VNB India"
           fill
           className="object-cover"

@@ -156,7 +156,7 @@ export default function SolarProductsPage() {
                 className="relative h-[500px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-solar/solar-modules.jpg"
                   alt="Solar Modules"
                   fill
                   className="object-cover"
@@ -303,7 +303,7 @@ export default function SolarProductsPage() {
                 className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-solar/solar-mounting-structures.jpg"
                   alt="Mounting Structures"
                   fill
                   className="object-cover"
@@ -424,7 +424,7 @@ export default function SolarProductsPage() {
                 className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-solar/balance-of-system-components.jpg"
                   alt="BOS Components"
                   fill
                   className="object-cover"

@@ -71,7 +71,7 @@ export default function PowerProductsPage() {
                 className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-power/power-and-electrical-products.jpg"
                   alt="Power Products"
                   fill
                   className="object-cover"
@@ -158,7 +158,7 @@ export default function PowerProductsPage() {
                 className="relative h-[500px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-power/electrical-cables-and-wires.jpg"
                   alt="Electrical Cables & Wires"
                   fill
                   className="object-cover"
@@ -186,7 +186,7 @@ export default function PowerProductsPage() {
                 className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-power/switchgear-solutions.jpg"
                   alt="Switch Gear"
                   fill
                   className="object-cover"
@@ -328,7 +328,7 @@ export default function PowerProductsPage() {
                 className="relative h-[500px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-power/lt-and-ht-panels.jpg"
                   alt="LT & HT Panels"
                   fill
                   className="object-cover"
@@ -356,7 +356,7 @@ export default function PowerProductsPage() {
                 className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1548613053-22087dd8edb8?w=800&h=600&fit=crop&q=80"
+                  src="/banners/product-power/power-and-distribution-transformers.jpg"
                   alt="Transformers"
                   fill
                   className="object-cover"

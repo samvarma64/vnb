@@ -65,7 +65,7 @@ export default function ITSmartServicesPage() {
                   <div className="relative h-56 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-blue/10 z-10" />
                     <Image
-                      src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=400&fit=crop&q=80"
+                      src="/banners/it-smart-services/smart-classroom-solutions.jpg"
                       alt="Smart Classroom Solutions"
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -104,7 +104,7 @@ export default function ITSmartServicesPage() {
                   <div className="relative h-56 overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
                     <Image
-                      src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&h=400&fit=crop&q=80"
+                      src="/banners/it-smart-services/cctv-surveillance.jpg"
                       alt="CCTV Surveillance"
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-700"

@@ -147,7 +147,7 @@ export default function VNBIFPD() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1920&h=1080&fit=crop&auto=format&q=80"
+            src="/banners/it-smart-systems/ifpd-google-edla.jpg"
             alt="Interactive Display in Modern Office"
             fill
             className="object-cover"

@@ -73,7 +73,7 @@ export default function ITSmartSystemsProductsPage() {
                 className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=600&fit=crop&q=80"
+                  src="/banners/it-smart-systems/smart-display-solutions.jpg"
                   alt="IT Smart Systems"
                   fill
                   className="object-cover"
@@ -166,7 +166,7 @@ export default function ITSmartSystemsProductsPage() {
                 className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop&q=80"
+                  src="/banners/it-smart-systems/ifpd-google-edla.jpg"
                   alt="Interactive Flat Panel in Classroom"
                   fill
                   className="object-cover"
@@ -361,7 +361,7 @@ export default function ITSmartSystemsProductsPage() {
                 className="relative h-[500px] rounded-3xl overflow-hidden shadow-xl"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800&h=600&fit=crop&q=80"
+                  src="/banners/it-smart-systems/all-in-one-desktop.jpg"
                   alt="All-In-One Desktop"
                   fill
                   className="object-cover"

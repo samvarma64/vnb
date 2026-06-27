@@ -76,7 +76,7 @@ export default function SmartClassroomPage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=600&fit=crop&q=80"
+                src="/banners/it-smart-services/smart-classroom-solutions.jpg"
                 alt="Smart Classroom"
                 fill
                 className="object-cover"
@@ -173,7 +173,7 @@ export default function SmartClassroomPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop&q=80"
+                src="/banners/it-smart-services/smart-classroom-solutions.jpg"
                 alt="Google EDLA Certified Smart Classroom"
                 fill
                 className="object-cover"
@@ -287,7 +287,7 @@ export default function SmartClassroomPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop&q=80"
+                src="/banners/it-smart-services/smart-classroom-solutions.jpg"
                 alt="K-12 Digital Content"
                 fill
                 className="object-cover"

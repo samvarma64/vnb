@@ -79,7 +79,7 @@ export default function InfraEPCConstructionPage() {
               className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&q=80"
+                src="/banners/infra-epc/infrastructure-epc-solutions.jpg"
                 alt="Infrastructure Construction"
                 fill
                 className="object-cover"
@@ -224,7 +224,7 @@ export default function InfraEPCConstructionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=400&fit=crop&q=80"
+                    src="/banners/infra-epc/turnkey-epc-projects.jpg"
                     alt="TurnKey EPC Projects"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -263,7 +263,7 @@ export default function InfraEPCConstructionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-blue/10 to-vnb-purple/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=400&fit=crop&q=80"
+                    src="/banners/infra-epc/switchyard-civil-works.jpg"
                     alt="Switchyard Civil Works"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -303,7 +303,7 @@ export default function InfraEPCConstructionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-orange/10 to-vnb-yellow/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&h=400&fit=crop&q=80"
+                    src="/banners/infra-epc/structural-fabrication-and-erection.jpg"
                     alt="Structural Fabrication & Erection"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -342,7 +342,7 @@ export default function InfraEPCConstructionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-purple/10 to-vnb-pink/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1545459720-aac8509eb02c?w=800&h=400&fit=crop&q=80"
+                    src="/banners/infra-epc/road-construction.jpg"
                     alt="Road Construction"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -381,7 +381,7 @@ export default function InfraEPCConstructionPage() {
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-vnb-green/10 to-vnb-blue/10 z-10" />
                   <Image
-                    src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&h=400&fit=crop&q=80"
+                    src="/banners/infra-epc/site-development-and-earth-works.jpg"
                     alt="Site Development & Earth Works"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -422,7 +422,7 @@ export default function InfraEPCConstructionPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&q=80"
+                src="/banners/infra-epc/infrastructure-epc-solutions-1.jpg"
                 alt="Industrial Construction"
                 fill
                 className="object-cover"
@@ -531,7 +531,7 @@ export default function InfraEPCConstructionPage() {
               className="relative h-[450px] rounded-3xl overflow-hidden shadow-xl"
             >
               <Image
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop&q=80"
+                src="/banners/infra-epc/infrastructure-epc-solutions-1.jpg"
                 alt="Commercial Building"
                 fill
                 className="object-cover"
@@ -709,7 +709,7 @@ export default function InfraEPCConstructionPage() {
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?w=1600&h=400&fit=crop&q=80"
+            src="/banners/infra-epc/infrastructure-epc-solutions.jpg"
             alt="Construction Background"
             fill
             className="object-cover"

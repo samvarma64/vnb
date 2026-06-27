@@ -149,7 +149,7 @@ export default function VNBAIO() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1920&h=1080&fit=crop&auto=format&q=80"
+            src="/banners/it-smart-systems/all-in-one-desktop.jpg"
             alt="Minimalist Professional Workspace"
             fill
             className="object-cover"
