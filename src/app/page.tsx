@@ -24,6 +24,8 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         >
           <Navbar />
+          {/* Spacer to offset the fixed navbar so the hero isn't hidden behind it */}
+          <div className="h-20 sm:h-24" aria-hidden="true" />
           <VNBStoryCards />
           <VNBBrandShowcase />
           <VNBMinimalStats />
